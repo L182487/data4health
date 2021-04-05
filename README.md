@@ -22,32 +22,40 @@ Paulo Victor             |       |
   Epidemio do Brasil... fazer
   
   Uma das fontes de dados sobre a saúde dos brasileiros são as pesquisas nacionais realizadas pelo Instituto Brasileiro de Geografia e estatística nos domicílios brasileiros. As ultimas pesquisas nacionais realizadas foram: a Pesquisa Nacional de Demografia e Saúde, com última edição em 2006, a Pesquisa de orçamentos familiares, com última edição em 2008 e a Pesquisa Nacional por Amostra de Domicílios, com última edição em 2015, não tiveram edições e atualizações recentes sobre o HIV. A Pesquisa Nacional de Saúde realizada em 2019 trouxe temas como alimentação, doença bucal, tabagismos, doenças crônicas como renal, cardiovascular, entre outros, mas não trouxeram dados exclusivos de HIV.(4)
-  Outra fonte de dados da população brasileira é são os censos nacionais, dos quais as ultimas edições ocorreram em 2000 e 2010, ou seja, como as pesquisas nacionais não contém dados atualizados sobre o tema. (4) Outras formas de pesquisas nacionais são as realizadas por chamadas telefônicas, como o programa Vigilância de Doenças Crônicas por Inquérito Telefônico (VIGITEL), com última edição em 2019. 
-   
+  Outra fonte de dados da população brasileira é são os censos nacionais, dos quais as ultimas edições ocorreram em 2000 e 2010, ou seja, como as pesquisas nacionais não contém dados atualizados sobre o tema. (4) 
+  Na ausência de estimativas nacionais, a síntese dos estudos individuais é uma alternativa para estimar e monitorar doenças como a AIDS. As revisões sistemáticas disponíveis não tem banco de dados disponíveis para avaliação. A prática na ciência de disponibilização de dados ainda é recente e nem todos os autores estao disponíveis para essa disponibilização. 
+    Portanto o objetivo desse projeto é avaliar a disponibilidade de banco de dados sobre o HIV, avalia-los estatisticamente buscando a prevalência nas ultimas décadas e a predição para os próximos anos. Além disso, o objetivo é ategorizar os resultados enontrados e avaliar perante mortalidade e consequentemente expectativa de vida.
+     
 ## Perguntas da Pesquisa = PICO 
  
-P (pessoa/pessoas) = brasileiros adultos
-I (intervenção) - não teria
-C (comparativo ou comparador) – não teria
-O (desfecho a se avaliar) = HIV/AIDS
-S (tipo de estudo) – prevalência de adultos brasileiro com HIV nas últimas décadas e predição para o futuro. E categorização por sexo e idade.
+Letra/significado            | Correlação    
+-----------------------------| ------
+P (pessoa/pessoas)           | brasileiros adultos
+I (intervenção)              | não temos
+C (comparativo ou comparador)| não temos
+O (desfecho a se avaliar)    | HIV/AIDS
+S (tipo de estudo)           | prevalência de adultos brasileiro com HIV nas últimas décadas e predição para o futuro. E categorização por sexo e idade.
 
 Perguntas para nosso projeto:
 Qual a prevalência de adultos com HIV no Brasil nas últimas décadas? E por idade e sexo?
 Qual a predição de adultos com HIV no Brasil para as próximas décadas?
-Qual diferença em estimativa entre os dados encontrados de HIV do Global Burden disease para os dados do Vigitel 2019 e dados do IGBGE na plataforma SIDRA?
+Qual diferença em estimativa entre os dados encontrados de HIV do Global Burden disease para os dados do IGBGE?
 
 Hipóteses: Confirmar a maior prevalência de HIV conforme relatadas em estudos anteriores do Global Burden disease de 2017
            Confirmar a menor mortalidade de HIV conforme relatadas em estudos anteriores do Global Burden disease de 2017
            
 
 ## Bases de dados
+Hipóteses de fonte de dados sobre o tema:
+* Global Burden of Disease Study 2019 (GBD 2019) Disease and Injury Burden 1990-2019
+* Global Burden of Disease Study 2019 (GBD 2019) Burden by Risk 1990-2019
+* Global Burden of Disease Study 2019 (GBD 2019) Under-5 Mortality and Adult Mortality 1950-2019
+* VIGITEL 2019 
+* SIDRA: Taxa de incidência de AIDS, por ano de diagnóstico
 
-Global Burden of Disease Study 2019 (GBD 2019) Disease and Injury Burden 1990-2019
-Global Burden of Disease Study 2019 (GBD 2019) Burden by Risk 1990-2019
-Global Burden of Disease Study 2019 (GBD 2019) Under-5 Mortality and Adult Mortality 1950-2019
-Arquivos em /download/Vigitel/ (aids.gov.br)
-Tabela 3835: Taxa de incidência de AIDS, por ano de diagnóstico (ibge.gov.br)
+Outras possíveis fontes de dados:
+* DATASUS
+* 
 
 ## Metodologia
 
