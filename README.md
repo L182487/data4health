@@ -26,7 +26,7 @@ Paulo Victor             |       |
   Na ausência de estimativas nacionais, a síntese dos estudos individuais é uma alternativa para estimar e monitorar doenças como a AIDS. As revisões sistemáticas disponíveis não tem banco de dados disponíveis para avaliação. A prática na ciência de disponibilização de dados ainda é recente e nem todos os autores estao disponíveis para essa disponibilização. 
     Portanto o objetivo desse projeto é avaliar a disponibilidade de banco de dados sobre o HIV, avalia-los estatisticamente buscando a prevalência nas ultimas décadas e a predição para os próximos anos. Além disso, o objetivo é ategorizar os resultados enontrados e avaliar perante mortalidade e consequentemente expectativa de vida.
      
-## Perguntas da Pesquisa = PICO 
+## Perguntas da Pesquisa 
  
 Letra/significado            | Correlação    
 -----------------------------| ------
@@ -51,11 +51,15 @@ Hipóteses de fonte de dados sobre o tema:
 * Global Burden of Disease Study 2019 (GBD 2019) Burden by Risk 1990-2019
 * Global Burden of Disease Study 2019 (GBD 2019) Under-5 Mortality and Adult Mortality 1950-2019
 * VIGITEL 2019 
-* SIDRA: Taxa de incidência de AIDS, por ano de diagnóstico
+* SIDRA: Taxa de incidência de AIDS, por ano de diagnóstico - https://sidra.ibge.gov.br/tabela/3835
 
 Outras possíveis fontes de dados:
-* DATASUS
-* 
+* DATASUS http://www2.aids.gov.br/cgi/deftohtm.exe?tabnet/br.def
+* UNAIDS https://unaids.org.br/relatorios-e-publicacoes/
+* Boletim Epidemiológicos http://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-hivaids-2020
+* Indicadores de Aids http://indicadores.aids.gov.br/
+* Taxa de incidência de AIDS por faixa etária https://seriesestatisticas.ibge.gov.br/series.aspx?t=taxa-incidencia-aids&vcodigo=MS52
+* WHO https://www.who.int/hiv/strategic/db/en/
 
 ## Metodologia
 
