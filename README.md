@@ -8,7 +8,7 @@ Nome                     | RA    | Especialização
 Carolina Muller Ferreira |210904 | Saúde
 Letícia                  |       | Saúde
 Lucas                    |       |  
-Paulo Victor             |       | 
+Paulo Victor             |224943 | TI
 
 ## Descrição Resumida do Projeto
   O vírus da imunodeficiência humana tipo 1 (HIV-1), a causa da síndrome da imunodeficiência humana adquirida (AIDS), é uma infecção zoonótica e que tem relação com o vírus da imunodeficiência símia (SIV) identificado em chimpanzés da subespécie Pantroglodytes em Camarões, África, onde foi detectado os primeiros casos em humanos.(1) Em 1982, a síndrome da imunodeficiência adquirida (AIDS) foi reconhecida como doença infecciosa pelo Center for Disease, Control and Prevention (CDC) , cujo contágio era feito por meio do contato com fluidos corporais. (2). Inicialmente acreditava-se que o contágio ocorria durante o ato sexual apenas de homossexuais, mas no ano seguinte foi verificado que o contágio ocorria também em heterossexuais. Anos posteriores foi verificado outros casos em crianças, se mostrando como uma doença de não só sexual, mas com outras variantes como nascimento, pela exposição a sangue ou outros produtos sanguíneos contaminados. (2)
