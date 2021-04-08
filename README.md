@@ -7,7 +7,7 @@ Nome                     | RA    | Especialização
 -------------------------| ------| --------------
 Carolina Muller Ferreira |210904 | Saúde
 Letícia                  |       | Saúde
-Lucas                    |       |  
+Lucas Feliciano da Silva |182487 |  
 Paulo Victor             |224943 | TI
 
 ## Descrição Resumida do Projeto
