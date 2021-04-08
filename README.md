@@ -6,7 +6,7 @@ Integrantes do grupo
 Nome                     | RA    | Especialização
 -------------------------| ------| --------------
 Carolina Muller Ferreira |210904 | Saúde
-Letícia Moreno Ambrozini |235497 | Saúde
+Letícia                  |235497 | Saúde
 Lucas Feliciano da Silva |182487 | TI 
 Paulo Victor             |224943 | TI
 
@@ -49,10 +49,13 @@ Perguntas para nosso projeto:
 Qual a prevalência de adultos com HIV no Brasil nas últimas décadas? E por idade, sexo, região?
 Qual a predição da prevalência de adultos com HIV no Brasil para as próximas décadas?
 
-Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos e as relatadas em estudos do Global Burden disease de 2017 - Comparativo de bases
+Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos.
            Explicar o aumento de casos com os anos, relacionando com redução na mortalidade e aumento da qualidade de vida (acesso a medicamentos, melhoria de saneamento, prevenção, mais técnicas de diagnóstico e etc.)
            
 ## Bases de dados
+* Latin American Country HIV Mortality Geospatial Estimates by Age and Sex 2000-2017
+http://ghdx.healthdata.org/record/ihme-data/latin-america-hiv-mortality-geospatial-estimates-2000-2017
+
 Hipóteses de fonte de dados sobre o tema:
 * Global Burden of Disease Study 2017 (GBD 2017) - http://ghdx.healthdata.org/gbd-2017
 (Referência: Frank, Tahvi D., et al. "Global, regional, and national incidence, prevalence, and mortality of HIV, 1980–2017, and forecasts to 2030, for 195 countries and territories: a systematic analysis for the Global Burden of Diseases, Injuries, and Risk Factors Study 2017." The lancet HIV 6.12 (2019): e831-e859.)
