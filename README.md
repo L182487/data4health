@@ -12,7 +12,7 @@ Paulo Victor             |224943 | TI
 
 ## Vídeo
 
-Uploading yht-mgoj-qxw (2021-04-08 at 12_38 GMT-7).mp4…
+https://user-images.githubusercontent.com/81878392/114087766-a79e2480-988a-11eb-9bcd-a57aa99f95a1.mp4
 
 ## Descrição Resumida do Projeto
  Em 1982, a síndrome da imunodeficiêcia adquirida (AIDS) foi reconhecida como doença infecciosa pelo Center for Disease, Control and Prevention (CDC) , cujo contágio era feito por meio do contato com fluidos corporais. (2). Estima-se que a prevalência global de pessoas com HIV aumentou de 1990 (8.74 milhões de pessoas) a 2017 (36.8 milhões de pessoas).(3) Em contraponto, as mortes globais por HIV que atingiram o pico em 2006, estão reduzindo ao longo das décadas.(3) Portanto, apesar de haver mais pessoas infectadas com a doença, fatores como: o tratamento, prevenção, técnicas de detecção prévia e até aumento da qualidade de vida, tem permitido uma menor mortalidade, ou seja, maior expectativa de vida de pacientes com HIV.
