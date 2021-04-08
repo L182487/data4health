@@ -10,22 +10,12 @@ Letícia                  |235497 | Saúde
 Lucas Feliciano da Silva |182487 | TI 
 Paulo Victor             |224943 | TI
 
+## Vídeo
+
+Uploading yht-mgoj-qxw (2021-04-08 at 12_38 GMT-7).mp4…
+
 ## Descrição Resumida do Projeto
-  O vírus da imunodeficiência humana tipo 1 (HIV-1), a causa da síndrome da imunodeficiência humana adquirida (AIDS), é uma infecção zoonótica e que tem relação com o vírus da imunodeficiência símia (SIV) identificado em chimpanzés da subespécie Pantroglodytes em Camarões, África, onde foi detectado os primeiros casos em humanos.(1) Em 1982, a síndrome da imunodeficiência adquirida (AIDS) foi reconhecida como doença infecciosa pelo Center for Disease, Control and Prevention (CDC) , cujo contágio era feito por meio do contato com fluidos corporais. (2). Inicialmente acreditava-se que o contágio ocorria durante o ato sexual apenas de homossexuais, mas no ano seguinte foi verificado que o contágio ocorria também em heterossexuais. Anos posteriores foi verificado outros casos em crianças, se mostrando como uma doença de não só sexual, mas com outras variantes como nascimento, pela exposição a sangue ou outros produtos sanguíneos contaminados. (2)
-  
-   O HIV é um retrovírus e, portanto, é capaz de integrar seu DNA ao genoma do hospedeiro. O receptor primário CD4 e os receptores de quimiocinas CCR5 e CXCR4 que são expressos em linfócitos e macrófagos, permitem a entrada do HIV no hospedeiro.  Após entrar na célula, o RNA de fita simples é transcrito reversamente em DNA de HIV, que é então integrado ao DNA do hospedeiro. As proteínas são produzidas e clivadas e os vírions maduros são liberados. (Figura 1) Em 1987, surgiu o uso do AZT, medicamento que inibe a transcriptase reversa, como o primeiro medicamento anti-HIV aprovado. Seu uso durou pouco tempo devido à resistência viral até então não conhecida. Em 1996, regimes de medicamentos antirretrovirais (ART) que são inibidores da transcriptase reversa e inibidores de protease, foram introduzidos, e seu uso se prolonga até os dias atuais como a melhor opção terapêutica mesmo com alta toxicidade ao paciente. (2) (Figura 2)
-   
-   ![image](https://user-images.githubusercontent.com/81878392/113633180-dcb83600-9642-11eb-99d4-8e4b85a175e2.png)
-
-Figura 1 : Ciclo do HIV no hospedeiro
-(Referência: Valente, Angélica MM, et al. "HIV lipodystrophy syndrome." Arquivos Brasileiros de Endocrinologia & Metabologia 49.6 (2005): 871-881)
-   
-   ![image](https://user-images.githubusercontent.com/81878392/113633068-af6b8800-9642-11eb-8056-1fbaaf5282df.png)
-
-Figura 2: Mecanismos dos antiretrovirais
-(Referência: Deeks, S., Overbaugh, J., Phillips, A. et al. HIV infection. Nat Rev Dis Primers 1, 15035 (2015). https://doi.org/10.1038/nrdp.2015.35)
-
-   Estima-se que a prevalência global de pessoas com HIV aumentou de 1990 (8.74 milhões de pessoas) a 2017 (36.8 milhões de pessoas).(3) Em contraponto, as mortes globais por HIV que atingiram o pico em 2006, estão reduzindo ao longo das décadas.(3) Portanto, apesar de haver mais pessoas infectadas com a doença, fatores como: o tratamento, prevenção, técnicas de detecção prévia e até aumento da qualidade de vida, tem permitido uma menor mortalidade, ou seja, maior expectativa de vida de pacientes com HIV.
+ Em 1982, a síndrome da imunodeficiêcia adquirida (AIDS) foi reconhecida como doença infecciosa pelo Center for Disease, Control and Prevention (CDC) , cujo contágio era feito por meio do contato com fluidos corporais. (2). Estima-se que a prevalência global de pessoas com HIV aumentou de 1990 (8.74 milhões de pessoas) a 2017 (36.8 milhões de pessoas).(3) Em contraponto, as mortes globais por HIV que atingiram o pico em 2006, estão reduzindo ao longo das décadas.(3) Portanto, apesar de haver mais pessoas infectadas com a doença, fatores como: o tratamento, prevenção, técnicas de detecção prévia e até aumento da qualidade de vida, tem permitido uma menor mortalidade, ou seja, maior expectativa de vida de pacientes com HIV.
    
    De acordo com o Boletim epidemiológico HIV/Aids de 2020, de 2007 até junho de 2020, foram notificados no Sistema de Informações de Agravos de Notificação, 342.459 casos de infecção pelo HIV no Brasil, com maior prevalência em homens (69,4%), na região Sudeste (44,4%) e entre 20 e 34 anos (52,7%). Já no ano anterior, foram notificados 41.919 casos de infecção pelo HIV, mostrando aumento de casos em um ano de notificação e confirmando a expectativa global de casos. (4)
    
@@ -77,9 +67,8 @@ Fonte de dados - apenas comparativo teórico de resultado:
 * UNICEF https://data.unicef.org/resources/dataset/hiv-aids-statistical-tables/
 
 ## Metodologia
-1) Seleção dos banco de dados a serem utilizados
-2) Avaliação do banco de dados - dados faltantes, dados em excesso, erros nas tabulações
-3) 
+
+
 
 ## Ferramentas
 
