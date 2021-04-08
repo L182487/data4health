@@ -44,7 +44,7 @@ Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos.
            Explicar o aumento de casos com os anos, relacionando com redução na mortalidade e aumento da qualidade de vida (acesso a medicamentos, melhoria de saneamento, prevenção, mais técnicas de diagnóstico e etc.)
            
 ## Bases de dados
-Base pricnipal para avaliação:
+Base principal para avaliação:
 * Latin American Country HIV Mortality Geospatial Estimates by Age and Sex 2000-2017
 http://ghdx.healthdata.org/record/ihme-data/latin-america-hiv-mortality-geospatial-estimates-2000-2017
 
