@@ -70,6 +70,8 @@ Séries estatísticas IBGE     |Exclusão             |Contém a Taxa de incidê
 Inquéritos nacionais         |Exclusão             |Pesquisas nacionais - Não tiveram edições e atualizações recentes sobre o HIV
 Global Burden Disease        |Exclusão             |Paises fornecem os dados e o estudo faz estimativas, predições gerais - pode entrar como comparativo na discussão
 
+Mais detalhes dos bancos e seus links: https://drive.google.com/drive/folders/1cvk76rLpl_bsDrseeYtbm6NNWk_a9-Bk?usp=sharing
+
 ## Metodologia
 
 A metodologia que será utilizada para extrair conhecimento dos bancos de dados escolhidos é a CRISP-DM. Esta técnica de processamento de dados consiste em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Processamento dos Dados, Modelamento, Avaliação e Entrega/Distribuição do Projeto. Essas etapas são iterativas, cíclicas e podem ser mais detalhadas à medida que o projeto avança, contendo tarefas que partem do âmbito geral até o mais específico, evoluindo no decorrer do projeto.  
