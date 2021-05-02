@@ -44,26 +44,31 @@ Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos.
            Explicar o aumento de casos com os anos, relacionando com redução na mortalidade e aumento da qualidade de vida (acesso a medicamentos, melhoria de saneamento, prevenção, mais técnicas de diagnóstico e etc.)
            
 ## Bases de dados
-Base principal para avaliação:
-* Latin American Country HIV Mortality Geospatial Estimates by Age and Sex 2000-2017
-http://ghdx.healthdata.org/record/ihme-data/latin-america-hiv-mortality-geospatial-estimates-2000-2017
 
-Hipóteses de fonte de dados sobre o tema:
-* Global Burden of Disease Study 2017 (GBD 2017) - http://ghdx.healthdata.org/gbd-2017
-* Global Burden of Disease Study 2019 (GBD 2019) - http://ghdx.healthdata.org/gbd-2019
-* Dados de HIV - GBD - http://www.healthdata.org/hiv-aids/data-visualizations
-* Dados de HIV - GBD Brazil - http://ghdx.healthdata.org/search/site/HIV?f%5B0%5D=im_field_geography%3A420
-* IBGE -  PlATAFORMA SIDRA: Taxa de incidência de AIDS, por ano de diagnóstico - https://sidra.ibge.gov.br/tabela/3835
-* DATASUS http://www2.aids.gov.br/cgi/deftohtm.exe?tabnet/br.def
-* UNAIDS https://unaids.org.br/relatorios-e-publicacoes/
-* Indicadores de Aids http://indicadores.aids.gov.br/
-* Taxa de incidência de AIDS por faixa etária https://seriesestatisticas.ibge.gov.br/series.aspx?t=taxa-incidencia-aids&vcodigo=MS52
-
-Fonte de dados - apenas comparativo teórico de resultado:
-* Boletim Epidemiológicos http://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-hivaids-2020
-* WHO https://www.who.int/hiv/strategic/db/en/
-* CDC https://wonder.cdc.gov/aidspublic.html
-* UNICEF https://data.unicef.org/resources/dataset/hiv-aids-statistical-tables/
+Nome do banco                |Inclusão ou Exclusão?| Motivo                                                   
+-----------------------------| --------------------|----------------------------------------------------------------------------------------------------------------------       
+Indicadores HIV              |Inclusão             |Contém todos os dados do Brasil por ano, região e sexo
+Estimativas da População     |Inclusão             |Contém dados da população em geral por ano para calculo de prevalência
+População - censo de 2010    |Inclusão             |Contém dados da população em 2010 para calculo de prevalência
+Planilhas HIV                |Possível Inclusão    |Contém várias planilhas de dados, mas nosso foco será os testes rápidos de HIV em 2020, 2019, 2018 e 2017-2011
+Painel de Mortalidade CID-10 |Possível Inclusão    |Dados de óbito contém na planilha de Indicadores de HIV já incluida mas pode servir de referência ou base
+DATASUS - Mortalidade        |Possível Inclusão    |Dados de óbito contém na planilha de Indicadores de HIV já incluida mas pode servir de referência ou base
+TABNET                       |Exclusão             |Dados estão menores o que sugere que contém apenas alguns dados de notificação - dados supeitos de confiança    
+Indicadores HIV              |Exclusão             |Com dados somente de Monitoramento Clínico de HIV e não casos gerais
+Indicadores HIV              |Exclusão             |Gestantes Vivendo com HIV, com foco nas gestantes e não na população toda. Contém um PowerBI, não é um banco de dados
+Indicadores HIV              |Exclusão             |Gestantes Vivendo com HIV, com foco nas gestantes  e não na população toda.
+Indicadores HIV              |Exclusão             |Painel de monitoramento de dados de HIV durante a pandemia da COVID-19. Avaliação com co-patologia, e não só HIV. Sem banco.
+Indicadores HIV              |Exclusão             |Painel das Maternidades 2020 , com foco nas gestantes  e não na população toda. Dados em PowerBi e ausência de banco de dados
+DATASUS                      |Exclusão             |Não é possível extrair sem o app TABWIN porém não foi possível baixar o app e consequentemente avaliar os dados
+DATASUS                      |Exclusão             |MORBIDADE HOSPITALAR DO SUS - foco somente hospitalar e não como um todo
+Latin American Country HIV   |Exclusão             |Baseado em dados de predição. Contém arquivos que cita de onde vem os dados brutos, mas esses são de dificil extração.
+COAP                         |Exclusão             |Dados do Contrato Organizativo da Ação Pública da Saúde - COAP e não essencialmente utilizáveis para avaliar a população
+UNAIDS                       |Exclusão             |São relatórios e não banco de dados
+IBGE SIDRA                   |Exclusão             |Contém a Taxa de incidência de AIDS e não os dados brutos e é limitada pois contém somente os anos de 2000-2012
+Estatísticas do TABNET       |Exclusão             |Contém estatisticas de mortalidade, internações, demografia, etc, mas não dados específicos de HIV. Dados de 2013 a 2018.
+Séries estatísticas IBGE     |Exclusão             |Contém a Taxa de incidência de AIDS e não os dados brutos e é limitada pois contém somente os anos de 1980-2008
+Inquéritos nacionais         |Exclusão             |Pesquisas nacionais - Não tiveram edições e atualizações recentes sobre o HIV
+Global Burden Disease        |Exclusão             |Paises fornecem os dados e o estudo faz estimativas, predições gerais - pode entrar como comparativo na discussão
 
 ## Metodologia
 
