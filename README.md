@@ -40,8 +40,7 @@ Perguntas para nosso projeto:
 Qual a prevalência de adultos com HIV no Brasil nas últimas décadas? E por idade, sexo, região?
 Qual a predição da prevalência de adultos com HIV no Brasil para as próximas décadas?
 
-Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos.
-           Explicar o aumento de casos com os anos, relacionando com redução na mortalidade e aumento da qualidade de vida (acesso a medicamentos, melhoria de saneamento, prevenção, mais técnicas de diagnóstico e etc.)
+Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos, verificando os subgrupos idade, sexo e regiões brasileiras.
            
 ## Bases de dados
 
@@ -89,16 +88,17 @@ Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do pr
 
 ## Ferramentas
 
-Software Phyton - Predição e Categorização dos dados  
+Software Phyton/Orange - Categorização dos dados, análise estatísticas, variabilidade dos dados, classificação e análise da distribuição/correlação  
+Software STATA 14.2 - análise de prevalência
 
 ## Cronograma
 
 Etapa (s)                                  | Data (s)
 ------------------------------------------ | ------
 Entrega do Plano do Projeto - E1           | 13/abril
-Trabalhar com os bancos excel - erros      | 19 a 23/abril
-Modelagem e categorização                  | 26 a 30/abril
-Predição e primeiros resultados            | 3 a 7/maio
+Trabalhar com os bancos excel              | 19 a 23/abril
+Avaliações estatisticas                    | 26 a 30/abril
+Primeiros resultados                       | 3 a 7/maio
 Entrega da bases de dados de trabalho - E2 | 11/maio
 Correções de erros e resultados            | 17 a 21/maio
 Comparação com a literatura                | 24 a 28/maio
