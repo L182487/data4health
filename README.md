@@ -77,11 +77,11 @@ A metodologia que será utilizada para extrair conhecimento dos bancos de dados 
 
 Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do projeto podemos dizer que a etapa atual do projeto está entre a etapa de Entendimento do Negócio e a etapa de Entendimento dos Dados uma vez que as perguntas do projeto já foram feitas e o banco de dados principal já foi escolhido, atualmente estão sendo feitos os processos de descrição e exploração dos dados.  Vale notar que, devido a característica cíclica do CRISP-DM, essas etapas e processos não são fixos podendo ser reformulados caso seja necessário, outra observação importante é que algumas das tarefas gerais de algumas etapas não se aplicam, como por exemplo a tarefa Manutenção e plano de manutenção na etapa de Distribuição.
 
-<img src="Images/CRISPDM.png" alt="CRISP-DM e suas etapas" width="400" heigth="400"/>
+<img src="assets/images/CRISPDM.png" alt="CRISP-DM e suas etapas" width="400" heigth="400"/>
 
 **Imagem 1:** - CRISP-DM e suas etapas
 
-![image](Images/CRISPDM_detalhado.png "CRISP-DM e suas etapas detalhadas")
+![image](assets/images/CRISPDM_detalhado.png "CRISP-DM e suas etapas detalhadas")
 
 **Imagem 2:** - CRISP-DM e suas etapas detalhadas, em negrito as tarefas gerais e em itálico seus respectivos resultados.
 
