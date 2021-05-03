@@ -1,1 +1,1 @@
-TESTE
+Instruções básicas de instalação
