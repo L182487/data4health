@@ -41,26 +41,42 @@ Qual a prevalência de adultos com Leishmaniose no Brasil nas últimas décadas?
 
 ## Bases não adotadas
 
-Base de dados        |Endereço da Web                                                                                         | Resumo descritivo                                                  
----------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------       
-Inquéritos nacionais | https://www.ibge.gov.br/estatisticas/sociais/saude.html                                                |Pesquisas nacionais - Não contém dados                                                                                                                                           específicos de Leishmaniose, e algumas e censos  
-                                                                                                                                pesquisas não tiveram uma edição atual, exemplo                                                                                                                                   os censos.     
-        
-Global Burden Disease| http://www.healthdata.org/search?search_terms=leishmaniasis+                                           |Paises fornecem os dados globais, mas não contém                                                                                                                                  os dados brutos originais -                                                                                                                                                      iremos usar de comparativos e na discussão.
-Estatísticas do sécXX| https://seculoxx.ibge.gov.br/populacionais-sociais-politicas-e-culturais/busca-por-palavra-chave/saude |Contém as estatísticas de leishmaniose de 1959 até                                                                                                                                2000 - sem dados recentes 
-                               
-                               
-TABNET Datasus       | http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/leishvbr.def                                |Contém os dados de Leishmaniose porém a fonte dos                        http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/ltabr.def                                      dados é o SINAN, assim o correto é utilizar os                                                                                                                                    dados direto da fonte                            
-                                                      
+Base de dados         |Endereço da Web                                                                                         | Resumo descritivo                         
+----------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------
+Inquéritos nacionais  |https://www.ibge.gov.br/estatisticas/sociais/saude.html                                                 |Pesquisas nacionais do IBGE
+Global Burden Disease |http://www.healthdata.org/search?search_terms=leishmaniasis+                                            |Pesquisa global sobre saúde 
+Estatísticas do sécXX |https://seculoxx.ibge.gov.br/populacionais-sociais-politicas-e-culturais/busca-por-palavra-chave/saude  |Estatísticas do séc XX do IBGE sobre saúde 
+TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/leishvbr.def                                 |Plataforma do DATAUSUS - leish. visceral
+TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/ltabr.def                                      |Plataforma do DATAUSUS - leish. tegumentar
+
+Base de dados         |Motivo de exclusão                       
+----------------------|--------------------------------------------------------------------------------------------------------
+Inquéritos nacionais  |Pesquisas nacionais - Não contém dados específicos de Leishmaniose, e algumas pesquisas não tiveram uma edição atual, exemplo os censos            
+Global Burden Disease |Países fornecem os dados globais, mas não contém os dados brutos originais -  iremos usar de comparativos e na discussão
+Estatísticas do sécXX |Contém as estatísticas de leishmaniose de 1959 até  2000 - sem dados recentes 
+TABNET Datasus        |Contém os dados de Leishmaniose porém a fonte dos dados é o SINAN, assim o correto é utilizar os dados direto da fonte - leish. visceral
+TABNET Datasus        |Contém os dados de Leishmaniose porém a fonte dos dados é o SINAN, assim o correto é utilizar os dados direto da fonte - leish. tegumentar
+
+Portanto como esses possíveis fontes de dados não foram aplicáveis a análise, não foi necessário realizar nenhuma análise descritiva pois de imediato já forma descartados, seja por não conter os dados que queriamos ou por ter dados secundário de um outra fonte primária de dados. Nesse ultimo caso a fonte primária de dados foi incluida como fonte principal para análise dos dados.
+
 ## Bases adotadas
 
-Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                                                  
--------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------- 
-SINAN                    | https://datasus.saude.gov.br/transferencia-de-arquivos/#                                               | Contém todos os dados do Brasil por ano, sexo 
-                                                                                                                                   e região. São dados de notifcação compulsória.        
-Estimativas da População |https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads |Contém dados da população em geral por ano                                                                                                                                        para calculo de prevalência
-População - censo de 2010|https://www.ibge.gov.br/estatisticas/sociais/populacao/9662-censo-demografico-2010.html?=&t=resultados  |Contém dados da população em 2010 para calculo                                                                                                                                    de prevalência
-                                                   
+Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                           
+-------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------
+SINAN                    |https://datasus.saude.gov.br/transferencia-de-arquivos/#                                                |Sistema de Informação de Agravos de                                                                                                                                              Notificação
+Estimativas da População |https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads |Estimativas do total da população por ano   
+População - censo        |https://www.ibge.gov.br/estatisticas/sociais/populacao/9662-censo-demografico-2010.html?=&t=resultados  |Estimativas do total da população por censo
+    
+Base de dados           |Motivo de exclusão                       
+------------------------|--------------------------------------------------------------------------------------------------------
+SINAN                   |Contém todos os dados do Brasil por ano, sexo e região. São dados de notifcação compulsória. 
+Estimativas da População|Contém dados da população em geral por ano para calculo de prevalência 
+População - censo       |Contém dados da população em 2010 para calculo de prevalência
+
+Portanto a fonte primária de dados será os dados do SINAN, e utilizaremos os dados de população do IBGE para avaliar a prevalência por ano. Como os bancos de dados de Leishmaniose Visceral e Leishmaniose Tegumentar são bem extensos por vários anos, resolvemos focar nos ultimos 5 anos queu são dados mais recentes da população brasileira.
+
+Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos indiviadualizados.
+
 ## Metodologia
 
 A metodologia que será utilizada para extrair conhecimento dos bancos de dados escolhidos é a CRISP-DM. Esta técnica de processamento de dados consiste em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Processamento dos Dados, Modelamento, Avaliação e Entrega/Distribuição do Projeto. Essas etapas são iterativas, cíclicas e podem ser mais detalhadas à medida que o projeto avança, contendo tarefas que partem do âmbito geral até o mais específico, evoluindo no decorrer do projeto.  
@@ -74,7 +90,6 @@ Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do pr
 ![image](assets/images/CRISPDM_detalhado.png "CRISP-DM e suas etapas detalhadas")
 
 **Imagem 2:** - CRISP-DM e suas etapas detalhadas, em negrito as tarefas gerais e em itálico seus respectivos resultados.
-
 
 ## Ferramentas
 
