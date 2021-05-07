@@ -48,8 +48,6 @@ Nome do banco                |Inclusão ou Exclusão?| Motivo
 -----------------------------| --------------------|----------------------------------------------------------------------------------------------------------------------       
 Dados SINAN                  |Exclusão             |Plataforma que contém os dados brutos do SINAN - porém não contém nenhum dado de HIV
 Indicadores HIV              |Exclusão             |Dados compilados do SINAN, SIM mas não são os dados brutos
-Estimativas da População     |Exclusão             |Contém dados da população em geral (não por patologia) por ano para calculo de prevalência
-População - censo de 2010    |Exclusão             |Contém dados da população em 2010 (não por patologia) para calculo de prevalência
 Planilhas HIV                |Exclusão             |Contém várias planilhas de dados, como de testes rapidos de HIV mas não contém os dados de casos de HIV
 Painel de Mortalidade CID-10 |Exclusão             |Dados de óbito - não contém casos de HIV
 DATASUS - Mortalidade        |Exclusão             |Dados de óbito - não contém casos de HIV
