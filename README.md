@@ -22,6 +22,7 @@ https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-
 
 ## Estrutura do projeto
 
+~~~
 ├── README.md          <- apresentação do projeto
 │
 ├── data
@@ -36,6 +37,7 @@ https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-
 │   └── README.md      <- instruções básicas de instalação/execução
 │
 └── assets             <- mídias usadas no projeto
+~~~
 
 ## Descrição Resumida do Projeto
 
