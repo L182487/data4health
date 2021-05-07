@@ -77,13 +77,6 @@ Portanto a fonte primária de dados será os dados do SINAN, e utilizaremos os d
 
 Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos indiviadualizados.
 
-Qual o esquema/dicionário desse banco (o formato é livre)?
-O que descobriu sobre esse banco?
-Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
-Apresente aqui uma Análise Exploratória (inicial) sobre esta base.
-Integração entre Bases e Análise Exploratória
-Descreva etapas de integração de fontes de dados e apresente a seguir uma análise exploratória que envolva ambas.
-
 ## Metodologia
 
 A metodologia que será utilizada para extrair conhecimento dos bancos de dados escolhidos é a CRISP-DM. Esta técnica de processamento de dados consiste em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Processamento dos Dados, Modelamento, Avaliação e Entrega/Distribuição do Projeto. Essas etapas são iterativas, cíclicas e podem ser mais detalhadas à medida que o projeto avança, contendo tarefas que partem do âmbito geral até o mais específico, evoluindo no decorrer do projeto.  
