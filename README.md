@@ -14,7 +14,7 @@ Paulo Victor             |224943 | TI
 
 Para a disciplina de Visualização de dados na saúde inicialmente escolhemos o tema HIV, buscando a prevalência de HIV no Brasil, porém ao visualizar os possíveis banco de dados que utilização como fonte principal os dados do SINAN (Sistema de Informação de Agravos de Notificação) observamos que não há disponível os dados brutos de HIV no SINAN, portanto como grupo resolvemos mudar de tema e escolher um tema que estivesse dispoonível na plataforma do SINAN/Datasus, para trabalhar com dados de notificação compulsória. Dessa forma o novo tema é Lesihmaniose, e o objetivo desse trabalho é avaliar a prevalência de Leishmaniose no Brasil.
 
-Nota: o README do HIV consta nesse github para consulta e tudo que foi observado. Ele consta na pasta como README_old no caminho: data4health/assets/docs. 
+Nota: o README do HIV consta nesse github para consulta e tudo que foi observado. Ele consta na pasta: data4health/assets/docs. 
 
 ## Vídeo
 
