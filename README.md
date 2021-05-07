@@ -41,23 +41,26 @@ Qual a prevalência de adultos com Leishmaniose no Brasil nas últimas décadas?
 
 ## Bases não adotadas
 
-Base de dados                |Endereço da Web                                                      | Resumo descritivo                                                  
------------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------       
-Inquéritos nacionais e censos| https://www.ibge.gov.br/estatisticas/sociais/saude.html             |Pesquisas nacionais - Não contém dados específicos de Leishmaniose, e algumas                                                                                                     pesquisas não tiveram uma edição atual, exemplo os censos.
-Global Burden Disease        | http://www.healthdata.org/search?search_terms=leishmaniasis+        |Paises fornecem os dados globais, mas não contém os dados brutos originais -                                                                                                     iremos usar de comparativos e na discussão.
-Estatísticas do séc XX       | https://seculoxx.ibge.gov.br/populacionais-sociais-                 |Contém as estatísticas de leishmaniose de 1959 até 2000 - sem dados recentes 
-                               politicas-e-culturais/busca-por-palavra-chave/saude/981-leishmaniose
+Base de dados        |Endereço da Web                                                                                         | Resumo descritivo                                                  
+---------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------       
+Inquéritos nacionais | https://www.ibge.gov.br/estatisticas/sociais/saude.html                                                |Pesquisas nacionais - Não contém dados                                                                                                                                           específicos de Leishmaniose, e algumas e censos  
+                                                                                                                                pesquisas não tiveram uma edição atual, exemplo                                                                                                                                   os censos.     
+        
+Global Burden Disease| http://www.healthdata.org/search?search_terms=leishmaniasis+                                           |Paises fornecem os dados globais, mas não contém                                                                                                                                  os dados brutos originais -                                                                                                                                                      iremos usar de comparativos e na discussão.
+Estatísticas do sécXX| https://seculoxx.ibge.gov.br/populacionais-sociais-politicas-e-culturais/busca-por-palavra-chave/saude |Contém as estatísticas de leishmaniose de 1959 até                                                                                                                                2000 - sem dados recentes 
                                
-TABNET Datasus               | http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/leishvbr.def |Contém os dados de Leishmaniose porém a fonte dos dados brutos é o SINAN                                http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/ltabr.def       assim o correto é utilizar os dados da fonte                            
+                               
+TABNET Datasus       | http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/leishvbr.def                                |Contém os dados de Leishmaniose porém a fonte dos                        http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/ltabr.def                                      dados é o SINAN, assim o correto é utilizar os                                                                                                                                    dados direto da fonte                            
                                                       
 ## Bases adotadas
 
-Base de dados            |Endereço da Web                                                                                        | Resumo descritivo                                                  
------------------------- | ------------------------------------------------------------------------------------------------------|------------------------------------------   SINAN                    | https://datasus.saude.gov.br/transferencia-de-arquivos/#                                              | Contém todos os dados do Brasil por ano, sexo 
-                                                                                                                                  e região. São dados de notifcação compulsória.        
-Estimativas da População |https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads| Contém dados da população em geral por ano                                                                                                                                        para calculo de prevalência
-População - censo de 2010|https://www.ibge.gov.br/estatisticas/sociais/populacao/9662-censo-demografico-2010.html?=&t=resultados |Contém dados da população em 2010 para calculo                                                                                                                                   de prevalência
-                                                  
+Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                                                  
+-------------------------|--------------------------------------------------------------------------------------------------------|---------------------------------------------- 
+SINAN                    | https://datasus.saude.gov.br/transferencia-de-arquivos/#                                               | Contém todos os dados do Brasil por ano, sexo 
+                                                                                                                                   e região. São dados de notifcação compulsória.        
+Estimativas da População |https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads |Contém dados da população em geral por ano                                                                                                                                        para calculo de prevalência
+População - censo de 2010|https://www.ibge.gov.br/estatisticas/sociais/populacao/9662-censo-demografico-2010.html?=&t=resultados  |Contém dados da população em 2010 para calculo                                                                                                                                    de prevalência
+                                                   
 ## Metodologia
 
 A metodologia que será utilizada para extrair conhecimento dos bancos de dados escolhidos é a CRISP-DM. Esta técnica de processamento de dados consiste em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Processamento dos Dados, Modelamento, Avaliação e Entrega/Distribuição do Projeto. Essas etapas são iterativas, cíclicas e podem ser mais detalhadas à medida que o projeto avança, contendo tarefas que partem do âmbito geral até o mais específico, evoluindo no decorrer do projeto.  
