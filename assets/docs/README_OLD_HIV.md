@@ -46,14 +46,13 @@ Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos, ve
 
 Nome do banco                |Inclusão ou Exclusão?| Motivo                                                   
 -----------------------------| --------------------|----------------------------------------------------------------------------------------------------------------------       
-Indicadores HIV              |Inclusão             |Contém todos os dados do Brasil por ano, região e sexo
-Estimativas da População     |Inclusão             |Contém dados da população em geral por ano para calculo de prevalência
-População - censo de 2010    |Inclusão             |Contém dados da população em 2010 para calculo de prevalência
-Planilhas HIV                |Possível Inclusão    |Contém várias planilhas de dados, mas nosso foco será os testes rápidos de HIV em 2020, 2019, 2018 e 2017-2011
-Painel de Mortalidade CID-10 |Possível Inclusão    |Dados de óbito contém na planilha de Indicadores de HIV já incluida mas pode servir de referência ou base
-DATASUS - Mortalidade        |Possível Inclusão    |Dados de óbito contém na planilha de Indicadores de HIV já incluida mas pode servir de referência ou base
+Dados SINAN                  |Exclusão             |Plataforma que contém os dados brutos do SINAN - porém não contém nenhum dado de HIV
+Indicadores HIV              |Exclusão             |Dados compilados do SINAN, SIM mas não são os dados brutos
+Planilhas HIV                |Exclusão             |Contém várias planilhas de dados, como de testes rapidos de HIV mas não contém os dados de casos de HIV
+Painel de Mortalidade CID-10 |Exclusão             |Dados de óbito - não contém casos de HIV
+DATASUS - Mortalidade        |Exclusão             |Dados de óbito - não contém casos de HIV
 TABNET                       |Exclusão             |Dados estão menores o que sugere que contém apenas alguns dados de notificação - dados supeitos de confiança    
-Indicadores HIV              |Exclusão             |Com dados somente de Monitoramento Clínico de HIV e não casos gerais
+Indicadores HIV              |Exclusão             |Com dados somente de Monitoramento Clínico de HIV e não casos gerais de HIV
 Indicadores HIV              |Exclusão             |Gestantes Vivendo com HIV, com foco nas gestantes e não na população toda. Contém um PowerBI, não é um banco de dados
 Indicadores HIV              |Exclusão             |Gestantes Vivendo com HIV, com foco nas gestantes  e não na população toda.
 Indicadores HIV              |Exclusão             |Painel de monitoramento de dados de HIV durante a pandemia da COVID-19. Avaliação com co-patologia, e não só HIV. Sem banco.
@@ -85,7 +84,6 @@ Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do pr
 
 **Imagem 2:** - CRISP-DM e suas etapas detalhadas, em negrito as tarefas gerais e em itálico seus respectivos resultados.
 
-
 ## Ferramentas
 
 Software Phyton/Orange - Categorização dos dados, análise estatísticas, variabilidade dos dados, classificação e análise da distribuição/correlação  
@@ -106,6 +104,10 @@ Embasamento teorico do trabalho final      | 31 a 04/junho
 Montar a apresentação                      | 7 a 11/junho
 Treinamento da apresentação                | 14 a 18/junho
 Entrega Final e apresentações              | 24/junho
+
+## Conclusão
+
+Ao avaliar os bancos de dados disponíveis concluimos que a avaliação de prevalência seria complicado de ser avaliado, pois não foi possível encontrar os dados brutos de HIV no SINAN, apenas dados já compilados em algumas plataformas, ou dados muito especificos por uma categoria: só mortalidade, só gestantes, só hospitalar, o que na opinião do grupo restrigiria a visão do projeto e nosso objetivo. Portanto o grupo resolveu optar em trabalhar com dados do SINAN para Leishmaniose, que contém dados brutos e é possível outras avaliações.
 
 ## Referências
 1. Greene WC. A history of AIDS: looking back to see ahead. Eur J Immunol. 2007 Nov;37 Suppl 1:S94-102. doi: 10.1002/eji.200737441. Erratum in: Eur J Immunol. 2008 Jan;38(1):309. PMID: 17972351.

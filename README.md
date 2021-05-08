@@ -1,5 +1,5 @@
-# Projeto - HIV no Brasil: cenário nas últimas décadas e projeção para o futuro
-# Project - HIV in Brazil: scenario in the last decades and projection for the future
+# Projeto - Leishmaniose no Brasil
+# Project - Leishmaniose in Brazil
 
 Integrantes do grupo
 
@@ -10,21 +10,38 @@ Letícia Moreno           |235497 | Saúde
 Lucas Feliciano da Silva |182487 | TI 
 Paulo Victor             |224943 | TI
 
-## Vídeo
+## Histórico - mudança de tema
 
-https://user-images.githubusercontent.com/81878392/114087766-a79e2480-988a-11eb-9bcd-a57aa99f95a1.mp4
+Para a disciplina de Visualização de dados na saúde inicialmente escolhemos o tema HIV, buscando a prevalência de HIV no Brasil. Porém ao visualizar os possíveis banco de dados cuja fonte principal era os dados do SINAN (Sistema de Informação de Agravos de Notificação), observamos que não há disponível os dados brutos de HIV no SINAN para download, portanto resolvemos mudar de tema e escolher um tema que estivesse os dados disponíveis para download na plataforma do SINAN/Datasus. Dessa forma o novo tema é Lesihmaniose, e o objetivo desse trabalho é avaliar a prevalência de Leishmaniose no Brasil.
+
+Nota: o README do HIV consta nesse github para consulta, mostrando o histórico e o que foi observado. Ele consta na pasta: data4health/assets/docs. 
+
+## Vídeo - Leishmaniose
+
+https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-84a1-64b5e11d17cd.mp4
+
+## Estrutura do projeto
+
+~~~
+├── README.md          <- apresentação do projeto
+│
+├── data
+│   ├── external       <- dados de terceiros
+│   ├── interim        <- dados intermediários, e.g., resultado de transformação
+│   ├── processed      <- dados finais usados para a modelagem
+│   └── raw            <- dados originais sem modificações
+│
+├── notebooks          <- Jupyter notebooks ou equivalentes
+│
+├── src                <- fonte em linguagem de programação ou sistema (e.g., Orange)
+│   └── README.md      <- instruções básicas de instalação/execução
+│
+└── assets             <- mídias usadas no projeto
+~~~
 
 ## Descrição Resumida do Projeto
 
-   Em 1982, a síndrome da imunodeficiêcia adquirida (AIDS) foi reconhecida como doença infecciosa pelo Center for Disease, Control and Prevention (CDC) , cujo contágio era feito por meio do contato com fluidos corporais. (1) Estima-se que a prevalência global de pessoas com HIV aumentou de 1990 (8.74 milhões de pessoas) a 2017 (36.8 milhões de pessoas). (2) Em contraponto, as mortes globais por HIV que atingiram o pico em 2006, estão reduzindo ao longo das décadas.(2) Portanto, apesar de haver mais pessoas infectadas com a doença, fatores como: o tratamento, prevenção, técnicas de detecção prévia e até aumento da qualidade de vida, tem permitido uma menor mortalidade, ou seja, maior expectativa de vida de pacientes com HIV.
    
-   De acordo com o Boletim epidemiológico HIV/Aids de 2020, de 2007 até junho de 2020, foram notificados no Sistema de Informações de Agravos de Notificação, 342.459 casos de infecção pelo HIV no Brasil, com maior prevalência em homens (69,4%), na região Sudeste (44,4%) e entre 20 e 34 anos (52,7%). Já no ano anterior, foram notificados 41.919 casos de infecção pelo HIV, mostrando aumento de casos em um ano de notificação e confirmando a expectativa global de casos. (3)
-   
-   Uma das fontes de dados sobre a saúde dos brasileiros são as pesquisas nacionais realizadas pelo Instituto Brasileiro de Geografia e estatística nos domicílios brasileiros. As últimas pesquisas nacionais realizadas foram: a Pesquisa Nacional de Demografia e Saúde, com última edição em 2006, a Pesquisa de orçamentos familiares, com última edição em 2008 e a Pesquisa Nacional por Amostra de Domicílios, com última edição em 2015, não tiveram edições e atualizações recentes sobre o HIV. A Pesquisa Nacional de Saúde realizada em 2019 trouxe temas como alimentação, tabagismo e doenças crônicas, mas não trouxeram dados exclusivos de HIV.(4) Outra fonte de dados da população brasileira é são os censos nacionais e a Vigilância de Doenças Crônicas por Inquérito Telefônico – VIGITEL, dos quais os censos tiveram as últimas edições em 2000 e 2010 e o Vigitel com útlima versão publicada em 2019, ambos não contém dados atualizados sobre o tema. (4) 
-   
-   Na ausência de estimativas nacionais, a síntese dos estudos individuais é uma alternativa para estimar e monitorar doenças como a AIDS. As revisões sistemáticas disponíveis não apresentam de forma eficaz os bancos de dados de suas pesquisas disponíveis para avaliação. A Ciência Aberta é um movimento recente que incentiva a transparência da pesquisa científica desde a concepção da investigação até o uso de softwares abertos, como repositórios Figshare ou Dryad, com o objetivo de coloaboração na pesquisa, atualização de dados do tema e transparência da pesquisa. Mas, como muitos pesquisadores são bastante conservadores em muitas de suas práticas, muitos dados ainda não são tratados como abertos, dificultando reanálises ou novas abordagens como a que esse trabalho se destina. (5)
-   
-   Portanto o objetivo desse projeto é avaliar a disponibilidade de banco de dados sobre o HIV, avalia-los estatisticamente buscando a prevalência nas últimas décadas e a predição para os próximos anos, bem como categorizar os resultados encontrados e avaliar perante mortalidade nesse período.
       
 ## Perguntas da Pesquisa 
  
@@ -33,46 +50,14 @@ Letra/significado            | Correlação
 P (pessoa/pessoas)           | brasileiros adultos
 I (intervenção)              | não temos
 C (comparativo ou comparador)| não temos
-O (desfecho a se avaliar)    | HIV/AIDS
-S (tipo de estudo)           | prevalência de adultos brasileiro com HIV nas últimas décadas e predição para o futuro. E categorização por sexo e idade.
+O (desfecho a se avaliar)    | Leishmaniose
+S (tipo de estudo)           | prevalência de adultos brasileiro com Leishmaniose nas últimas décadas e categorização por sexo e idade.
 
 Perguntas para nosso projeto:
-Qual a prevalência de adultos com HIV no Brasil nas últimas décadas? E por idade, sexo, região?
-Qual a predição da prevalência de adultos com HIV no Brasil para as próximas décadas?
-
-Hipóteses: Confirmar a maior prevalência de HIV no Brasil no últimos anos, verificando os subgrupos idade, sexo e regiões brasileiras.
-           
-## Bases de dados
-
-Nome do banco                |Inclusão ou Exclusão?| Motivo                                                   
------------------------------| --------------------|----------------------------------------------------------------------------------------------------------------------       
-Indicadores HIV              |Inclusão             |Contém todos os dados do Brasil por ano, região e sexo
-Estimativas da População     |Inclusão             |Contém dados da população em geral por ano para calculo de prevalência
-População - censo de 2010    |Inclusão             |Contém dados da população em 2010 para calculo de prevalência
-Planilhas HIV                |Possível Inclusão    |Contém várias planilhas de dados, mas nosso foco será os testes rápidos de HIV em 2020, 2019, 2018 e 2017-2011
-Painel de Mortalidade CID-10 |Possível Inclusão    |Dados de óbito contém na planilha de Indicadores de HIV já incluida mas pode servir de referência ou base
-DATASUS - Mortalidade        |Possível Inclusão    |Dados de óbito contém na planilha de Indicadores de HIV já incluida mas pode servir de referência ou base
-TABNET                       |Exclusão             |Dados estão menores o que sugere que contém apenas alguns dados de notificação - dados supeitos de confiança    
-Indicadores HIV              |Exclusão             |Com dados somente de Monitoramento Clínico de HIV e não casos gerais
-Indicadores HIV              |Exclusão             |Gestantes Vivendo com HIV, com foco nas gestantes e não na população toda. Contém um PowerBI, não é um banco de dados
-Indicadores HIV              |Exclusão             |Gestantes Vivendo com HIV, com foco nas gestantes  e não na população toda.
-Indicadores HIV              |Exclusão             |Painel de monitoramento de dados de HIV durante a pandemia da COVID-19. Avaliação com co-patologia, e não só HIV. Sem banco.
-Indicadores HIV              |Exclusão             |Painel das Maternidades 2020 , com foco nas gestantes  e não na população toda. Dados em PowerBi e ausência de banco de dados
-DATASUS                      |Exclusão             |Não é possível extrair sem o app TABWIN porém não foi possível baixar o app e consequentemente avaliar os dados
-DATASUS                      |Exclusão             |MORBIDADE HOSPITALAR DO SUS - foco somente hospitalar e não como um todo
-Latin American Country HIV   |Exclusão             |Baseado em dados de predição. Contém arquivos que cita de onde vem os dados brutos, mas esses são de dificil extração.
-COAP                         |Exclusão             |Dados do Contrato Organizativo da Ação Pública da Saúde - COAP e não essencialmente utilizáveis para avaliar a população
-UNAIDS                       |Exclusão             |São relatórios e não banco de dados
-IBGE SIDRA                   |Exclusão             |Contém a Taxa de incidência de AIDS e não os dados brutos e é limitada pois contém somente os anos de 2000-2012
-Estatísticas do TABNET       |Exclusão             |Contém estatisticas de mortalidade, internações, demografia, etc, mas não dados específicos de HIV. Dados de 2013 a 2018.
-Séries estatísticas IBGE     |Exclusão             |Contém a Taxa de incidência de AIDS e não os dados brutos e é limitada pois contém somente os anos de 1980-2008
-Inquéritos nacionais         |Exclusão             |Pesquisas nacionais - Não tiveram edições e atualizações recentes sobre o HIV
-Global Burden Disease        |Exclusão             |Paises fornecem os dados e o estudo faz estimativas, predições gerais - pode entrar como comparativo na discussão
-
-Mais detalhes dos bancos e seus links: https://drive.google.com/drive/folders/1cvk76rLpl_bsDrseeYtbm6NNWk_a9-Bk?usp=sharing
-
+Qual a prevalência de adultos com Leishmaniose no Brasil nas últimas décadas? E por idade, sexo, região?
+         
 ## Metodologia
-
+### Aspectos gerais
 A metodologia que será utilizada para extrair conhecimento dos bancos de dados escolhidos é a CRISP-DM. Esta técnica de processamento de dados consiste em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Processamento dos Dados, Modelamento, Avaliação e Entrega/Distribuição do Projeto. Essas etapas são iterativas, cíclicas e podem ser mais detalhadas à medida que o projeto avança, contendo tarefas que partem do âmbito geral até o mais específico, evoluindo no decorrer do projeto.  
 
 Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do projeto podemos dizer que a etapa atual do projeto está entre a etapa de Entendimento do Negócio e a etapa de Entendimento dos Dados uma vez que as perguntas do projeto já foram feitas e o banco de dados principal já foi escolhido, atualmente estão sendo feitos os processos de descrição e exploração dos dados.  Vale notar que, devido a característica cíclica do CRISP-DM, essas etapas e processos não são fixos podendo ser reformulados caso seja necessário, outra observação importante é que algumas das tarefas gerais de algumas etapas não se aplicam, como por exemplo a tarefa Manutenção e plano de manutenção na etapa de Distribuição.
@@ -85,6 +70,46 @@ Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do pr
 
 **Imagem 2:** - CRISP-DM e suas etapas detalhadas, em negrito as tarefas gerais e em itálico seus respectivos resultados.
 
+## Bases de dados e Evolução
+### Bases não adotadas
+
+Base de dados         |Endereço da Web                                                                                         | Resumo descritivo                         
+----------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------
+Inquéritos nacionais  |https://www.ibge.gov.br/estatisticas/sociais/saude.html                                                 |Pesquisas nacionais do IBGE
+Global Burden Disease |http://www.healthdata.org/search?search_terms=leishmaniasis+                                            |Pesquisa global sobre saúde 
+Estatísticas do sécXX |https://seculoxx.ibge.gov.br/populacionais-sociais-politicas-e-culturais/busca-por-palavra-chave/saude  |Estatísticas do séc XX do IBGE sobre saúde 
+TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/leishvbr.def                                 |Plataforma do DATAUSUS - leish. visceral
+TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/ltabr.def                                      |Plataforma do DATAUSUS - leish. tegumentar
+TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/deftohtm.exe?idb2012/d0204.def                                         |Plataforma do DATAUSUS - incidência 1990-2012
+
+Base de dados         |Motivo de exclusão                       
+----------------------|--------------------------------------------------------------------------------------------------------
+Inquéritos nacionais  |Pesquisas nacionais - Não contém dados específicos de Leishmaniose, e algumas pesquisas não tiveram uma edição atual, exemplo os censos            
+Global Burden Disease |Países fornecem os dados globais, mas não contém os dados brutos originais -  iremos usar de comparativos e na discussão
+Estatísticas do sécXX |Contém as estatísticas de leishmaniose de 1959 até  2000 - sem dados recentes 
+TABNET Datasus        |Contém os dados de Leishmaniose porém a fonte dos dados é o SINAN, assim o correto é utilizar os dados direto da fonte - leish. visceral
+TABNET Datasus        |Contém os dados de Leishmaniose porém a fonte dos dados é o SINAN, assim o correto é utilizar os dados direto da fonte - leish. tegumentar
+TABNET Datasus        |Contém os dados de Leishmaniose tegumentar apenas nos anos 1990-2012 - sem dados recentes 
+
+Portanto como esses possíveis fontes de dados não foram aplicáveis a análise, não foi necessário realizar nenhuma análise descritiva pois de imediato já forma descartados, seja por não conter os dados que queriamos ou por ter dados secundário de um outra fonte primária de dados. Nesse ultimo caso a fonte primária de dados foi incluida como fonte principal para análise dos dados.
+
+### Bases adotadas
+
+Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                           
+-------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------
+SINAN                    |https://datasus.saude.gov.br/transferencia-de-arquivos/#                                                |Sistema de Informação de Agravos de                                                                                                                                              Notificação
+Estimativas da População |https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads |Estimativas do total da população por ano   
+População - censo        |https://www.ibge.gov.br/estatisticas/sociais/populacao/9662-censo-demografico-2010.html?=&t=resultados  |Estimativas do total da população por censo
+    
+Base de dados           |Motivo de exclusão                       
+------------------------|--------------------------------------------------------------------------------------------------------
+SINAN                   |Contém todos os dados do Brasil por ano, sexo e região. São dados de notifcação compulsória. 
+Estimativas da População|Contém dados da população em geral por ano para calculo de prevalência 
+População - censo       |Contém dados da população em 2010 para calculo de prevalência
+
+Portanto a fonte primária de dados será os dados do SINAN, e utilizaremos os dados de população do IBGE para avaliar a prevalência por ano. Como os bancos de dados de Leishmaniose Visceral e Leishmaniose Tegumentar são bem extensos por vários anos, resolvemos focar nos ultimos 5 anos queu são dados mais recentes da população brasileira.
+
+Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos indiviadualizados.
 
 ## Ferramentas
 
@@ -96,9 +121,10 @@ Software STATA 14.2 - análise de prevalência
 Etapa (s)                                  | Data (s)
 ------------------------------------------ | ------
 Entrega do Plano do Projeto - E1           | 13/abril
-Trabalhar com os bancos excel              | 19 a 23/abril
-Avaliações estatisticas                    | 26 a 30/abril
-Primeiros resultados                       | 3 a 7/maio
+Trabalhamos com HIV                        | 19 a 23/abril
+Trabalhamos com HIV                        | 26 a 30/abril
+Mudança de tema - Leishmaniose 
+e avaliação dos dados                      | 3 a 7/maio
 Entrega da bases de dados de trabalho - E2 | 11/maio
 Correções de erros e resultados            | 17 a 21/maio
 Comparação com a literatura                | 24 a 28/maio
@@ -108,9 +134,6 @@ Treinamento da apresentação                | 14 a 18/junho
 Entrega Final e apresentações              | 24/junho
 
 ## Referências
-1. Greene WC. A history of AIDS: looking back to see ahead. Eur J Immunol. 2007 Nov;37 Suppl 1:S94-102. doi: 10.1002/eji.200737441. Erratum in: Eur J Immunol. 2008 Jan;38(1):309. PMID: 17972351.
-2. Frank, Tahvi D., et al. "Global, regional, and national incidence, prevalence, and mortality of HIV, 1980–2017, and forecasts to 2030, for 195 countries and territories: a systematic analysis for the Global Burden of Diseases, Injuries, and Risk Factors Study 2017." The lancet HIV 6.12 (2019): e831-e859.
-3. Site, Doenças de Condições Crônicas e Infecções sexualmente trasnmissíveis. "Disponível em: http://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-hivaids-2020" Acesso em April, 05 (2021).
-4. Site, I.B.G.E. "Disponível em: https://www.ibge.gov.br/estatisticas/sociais/saude.html" Acesso em April, 05 (2021).
-5. SILVA, Fabiano Couto Corrêa da  and  SILVEIRA, Lúcia da. O ecossistema da Ciência Aberta. Transinformação [online]. 2019, vol.31 [cited  2021-04-05], e190001. Available from: <http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-37862019000100302&lng=en&nrm=iso>.  Epub Sep 23, 2019. ISSN 2318-0889.  https://doi.org/10.1590/2318-0889201931e190001.
-6. CRISP-DM 1.0: Step-by-step mining guide, The CRISP-DM consortium, Agosto, 2000.
+* Site, I.B.G.E. "Disponível em: http://bvs.saude.gov.br/dicas-em-saude/2085-leishmaniose" Acesso em May, 07 (2021).
+* Site, I.B.G.E. "Disponível em: https://www.ibge.gov.br/estatisticas/sociais/saude.html"  Acesso em April, 05 (2021).
+* CRISP-DM 1.0: Step-by-step mining guide, The CRISP-DM consortium, Agosto, 2000.
