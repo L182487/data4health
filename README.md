@@ -73,7 +73,7 @@ Qual a prevalência de Leishmaniose no Brasil nos útlimos 5 anos? E por sexo e 
 ### Aspectos gerais
 A metodologia que será utilizada para extrair conhecimento dos bancos de dados escolhidos é a CRISP-DM. Esta técnica de processamento de dados consiste em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Processamento dos Dados, Modelamento, Avaliação e Entrega/Distribuição do Projeto. Essas etapas são iterativas, cíclicas e podem ser mais detalhadas à medida que o projeto avança, contendo tarefas que partem do âmbito geral até o mais específico, evoluindo no decorrer do projeto.  
 
-Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do projeto podemos dizer que a etapa atual do projeto está entre a etapa de Entendimento do Negócio e a etapa de Entendimento dos Dados uma vez que as perguntas do projeto já foram feitas e o banco de dados principal já foi escolhido, atualmente estão sendo feitos os processos de descrição e exploração dos dados.  Vale notar que, devido a característica cíclica do CRISP-DM, essas etapas e processos não são fixos podendo ser reformulados caso seja necessário, outra observação importante é que algumas das tarefas gerais de algumas etapas não se aplicam, como por exemplo a tarefa Manutenção e plano de manutenção na etapa de Distribuição.
+Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do projeto podemos dizer que a etapa atual do projeto está entre a etapa de Entendimento do Negócio e a etapa de Entendimento dos Dados uma vez que as perguntas do projeto já foram feitas e o banco de dados principal já foi escolhido, atualmente estão sendo feitos os processos de descrição e exploração dos dados.  Vale notar que, devido a característica cíclica do CRISP-DM, essas etapas e processos não são fixos podendo ser reformulados caso seja necessário, outra observação importante é que algumas das tarefas gerais de algumas etapas não se aplicam, como por exemplo a tarefa Manutenção e plano de manutenção na etapa de Distribuição. (5)
 
 <img src="assets/images/CRISPDM.png" alt="CRISP-DM e suas etapas" width="400" heigth="400"/>
 
@@ -106,9 +106,9 @@ TABNET Datasus        |Contém os dados de Leishmaniose tegumentar apenas nos an
 
 Portanto como esses possíveis fontes de dados não foram aplicáveis a análise, não foi necessário realizar nenhuma análise descritiva pois de imediato já forma descartados, seja por não conter os dados que queriamos ou por ter dados secundário de um outra fonte primária de dados. Nesse ultimo caso a fonte primária de dados foi incluida como fonte principal para análise dos dados.
 
-### Bases adotadas
+### Bases adotadas 
 
-Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                           
+Base de dados (6,7)      |Endereço da Web                                                                                         | Resumo descritivo                           
 -------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------
 SINAN                    |https://datasus.saude.gov.br/transferencia-de-arquivos/#                                                |Sistema de Informação de Agravos de                                                                                                                                              Notificação
 Estimativas da População |https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads |Estimativas do total da população por ano   
@@ -150,7 +150,8 @@ Entrega Final e apresentações              | 24/junho
 1. ARAÚJO, YWKIANE L.; SILVA, ALLAN B.; FREITAS, FRANCISCA INÊS S.; LIMA, CALIANDRA MARIA B. L. Ocorrência da leishmaniose visceral na Paraíba e sua correlação com indicadores municipais Revista Saúde (Sta. Maria). 2021; 47.
 2.	PELISSARI, Daniele Maria et al . Tratamento da Leishmaniose Visceral e Leishmaniose Tegumentar Americana no Brasil. Epidemiol. Serv. Saúde,  Brasília ,  v. 20, n. 1, p. 107-110,  mar.  2011 .   
 3.	REY, L. Parasitologia. 4ª Edição. Rio de Janeiro, RJ. Editora Guanabara (2008).
-4.	NEVES D. Parasitologia Humana. 11ª Edição. São Paulo, SP. Editora Ateneu (2005)
-* Site, I.B.G.E. "Disponível em: http://bvs.saude.gov.br/dicas-em-saude/2085-leishmaniose" Acesso em May, 07 (2021).
-* Site, I.B.G.E. "Disponível em: https://www.ibge.gov.br/estatisticas/sociais/saude.html"  Acesso em April, 05 (2021).
-* CRISP-DM 1.0: Step-by-step mining guide, The CRISP-DM consortium, Agosto, 2000.
+4.	NEVES D. Parasitologia Humana. 11ª Edição. São Paulo, SP. Editora Ateneu (2005).
+5.	CRISP-DM 1.0: Step-by-step mining guide, The CRISP-DM consortium, Agosto, 2000.
+6.	Site, I.B.G.E. "Disponível em: http://bvs.saude.gov.br/dicas-em-saude/2085-leishmaniose" Acesso em May, 07 (2021).
+7.	Site, I.B.G.E. "Disponível em: https://www.ibge.gov.br/estatisticas/sociais/saude.html"  Acesso em April, 05 (2021).
+
