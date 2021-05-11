@@ -16,7 +16,7 @@ Para a disciplina de Visualização de dados na saúde inicialmente escolhemos o
 
 Nota: o README do HIV consta nesse github para consulta, mostrando o histórico e o que foi observado. Ele consta na pasta: data4health/assets/docs. 
 
-## Introdução
+## Descrição Resumida do Projeto
 
 As leishmanioses são antropozoonoses infectoparasitárias causadas por protozoários do gênero Leishmania sp, transmitidas por vetores flebotomíneos infectados, cujos hospedeiros definitivos são o homem e animais silvestres e domésticos quando estes têm contato com o ciclo de transmissão do parasito. (1,2)
 
@@ -55,10 +55,7 @@ https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-
 └── assets             <- mídias usadas no projeto
 ~~~
 
-## Descrição Resumida do Projeto
-
    
-      
 ## Perguntas da Pesquisa 
  
 Letra/significado            | Correlação    
@@ -67,10 +64,10 @@ P (pessoa/pessoas)           | brasileiros adultos
 I (intervenção)              | não temos
 C (comparativo ou comparador)| não temos
 O (desfecho a se avaliar)    | Leishmaniose
-S (tipo de estudo)           | prevalência de adultos brasileiro com Leishmaniose nas últimas décadas e categorização por sexo e idade.
+S (tipo de estudo)           | prevalência de brasileiros com Leishmaniose nas últimas décadas e categorização por sexo e região.
 
 Perguntas para nosso projeto:
-Qual a prevalência de adultos com Leishmaniose no Brasil nas últimas décadas? E por idade, sexo, região?
+Qual a prevalência de Leishmaniose no Brasil nos útlimos 5 anos? E por sexo e região?
          
 ## Metodologia
 ### Aspectos gerais
