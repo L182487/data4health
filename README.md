@@ -67,7 +67,7 @@ O (desfecho a se avaliar)    | Leishmaniose
 S (tipo de estudo)           | prevalência de brasileiros com Leishmaniose nas últimas décadas e categorização por sexo e região.
 
 Perguntas para nosso projeto:
-Qual a prevalência de Leishmaniose no Brasil nos útlimos 5 anos? E por sexo e região?
+Qual a prevalência de Leishmaniose no Brasil nos últimos 5 anos? E por sexo e região?
          
 ## Metodologia
 ### Aspectos gerais
