@@ -108,13 +108,13 @@ Portanto como esses possíveis fontes de dados não foram aplicáveis a análise
 
 ### Bases adotadas 
 
-Base de dados (6,7)      |Endereço da Web                                                                                         | Resumo descritivo                           
+Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                           
 -------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------
 SINAN                    |https://datasus.saude.gov.br/transferencia-de-arquivos/#                                                |Sistema de Informação de Agravos de                                                                                                                                              Notificação
 Estimativas da População |https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-populacao.html?=&t=downloads |Estimativas do total da população por ano   
 População - censo        |https://www.ibge.gov.br/estatisticas/sociais/populacao/9662-censo-demografico-2010.html?=&t=resultados  |Estimativas do total da população por censo
     
-Base de dados           |Motivo de exclusão                       
+Base de dados           |Motivo de inclusão                       
 ------------------------|--------------------------------------------------------------------------------------------------------
 SINAN                   |Contém todos os dados do Brasil por ano, sexo e região. São dados de notifcação compulsória. 
 Estimativas da População|Contém dados da população em geral por ano para calculo de prevalência 
@@ -123,6 +123,17 @@ População - censo       |Contém dados da população em 2010 para calculo de 
 Portanto a fonte primária de dados será os dados do SINAN, e utilizaremos os dados de população do IBGE para avaliar a prevalência por ano. Como os bancos de dados de Leishmaniose Visceral e Leishmaniose Tegumentar são bem extensos por vários anos, resolvemos focar nos ultimos 5 anos queu são dados mais recentes da população brasileira.
 
 Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos indiviadualizados.
+
+### Integração entre bases de dados e Análise Exploratória
+
+No Sistema de notificação de agravos (SINAN), as bases para notificação de leishmaniose visceral e leishmaniose tegumentar americana são diferentes, existindo uma base para cada tipo de leishmaniose, em um dado estado e em um dado cada ano correspondentes, portanto é necessário que haja uma junção das bases. A extensão das bases presentes no SINAN é .DBC, portanto é necessário fazer uma descompactação para extensão .DBF e posterior conversão dessa extensão para .CSV, esses processos foram feitos no programa TabWin. A junção dos bancos de extensão .CSV foi feita em dois grandes bancos, um para [leishmaniose visceral](data/interim/LEIV_total.csv) e outro para [leishamniose tegumentar americana](data/interim/LTA_total.csv), visto que há diferentes campos com diferentes nomes em cada caso, a junção de todos eles em apenas um banco mostrou-se incoveniente. O processo de integração das bases pode ser encontrado aqui:
+- [Integração das bases leishmaniose tegumentar americana](notebooks/lta_merge.ipynb)
+- [Integração das bases leishmaniose visceral](notebooks/leiv_merge.ipynb)
+
+A análise exploratória foi feita para cada um dos bancos, ignorando-se os dados faltantes (foram excluídos nessa etapa) e com um foco maior na classificação final da doença ou evolução do caso, contendo análise de mortalidade ao longo dos anos. Os cadernos de cada uma das análises são: 
+- [Análise exploratória leishmaniose tegumentar americana](notebooks/exp_analysis_LTA.ipynb)
+- [Análise exploratória leishmaniose visceral](notebooks/exp_analysis.ipynb)
+
 
 ## Ferramentas
 
