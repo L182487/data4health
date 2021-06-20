@@ -68,7 +68,7 @@ S (tipo de estudo)           | prevalência de brasileiros com Leishmaniose nas 
 
 Perguntas para nosso projeto:
 Qual a prevalência de Leishmaniose no Brasil nos últimos 5 anos? E qual projeção para 2020?
-É possível uma categorização por cura e óbitos desses resultados?
+É possível uma categorização dos resultados por cura e óbitos?
          
 ## Metodologia
 ### Aspectos gerais
