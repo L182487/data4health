@@ -1,6 +1,9 @@
 # Projeto - Leishmaniose no Brasil
 # Project - Leishmaniose in Brazil
 
+# Apresentação
+O presente projeto foi originado no contexto das atividades da disciplina de pós-graduação Ciência e Visualização de Dados em Saúde, oferecida no primeiro semestre de 2021, na Unicamp.
+
 Integrantes do grupo
 
 Nome                     | RA    | Especialização
@@ -10,13 +13,13 @@ Letícia Moreno           |235497 | Saúde
 Lucas Feliciano da Silva |182487 | TI 
 Paulo Victor             |224943 | TI
 
-## Histórico - mudança de tema
+# Histórico - mudança de tema
 
 Para a disciplina de Visualização de dados na saúde inicialmente escolhemos o tema HIV, buscando a prevalência de HIV no Brasil. Porém ao visualizar os possíveis banco de dados cuja fonte principal era os dados do SINAN (Sistema de Informação de Agravos de Notificação), observamos que não há disponível os dados brutos de HIV no SINAN para download, portanto resolvemos mudar de tema e escolher um tema que estivesse os dados disponíveis para download na plataforma do SINAN/Datasus. Dessa forma o novo tema é Lesihmaniose, e o objetivo desse trabalho é avaliar a prevalência de Leishmaniose no Brasil.
 
 Nota: o README do HIV consta nesse github para consulta, mostrando o histórico e o que foi observado. Ele consta na pasta: data4health/assets/docs. 
 
-## Descrição Resumida do Projeto
+# Descrição Resumida do Projeto
 
 As leishmanioses são antropozoonoses infectoparasitárias causadas por protozoários do gênero Leishmania sp, transmitidas por vetores flebotomíneos infectados, cujos hospedeiros definitivos são o homem e animais silvestres e domésticos quando estes têm contato com o ciclo de transmissão do parasito. (1,2)
 
@@ -31,12 +34,36 @@ A Leishmaniose Visceral (LV) ocorre pela presença do parasito no interior de c�
 
 O tratamento das leishmanioses é extremamente hepatotóxico, fator pelo qual grande parte dos infectados pela doença optam pelo não-tratamento. O diagnóstico pode ser feito exames parasitológicos, imunológicos ou moleculares, tendo maior adesão aos testes imunológicos pelo baixo custo e rapidez de diagnóstico. (3,4)
 
+# Vídeos do Projeto
 
-## Vídeo - Leishmaniose
-
+## Vídeo da Proposta
 https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-84a1-64b5e11d17cd.mp4
 
-## Estrutura do projeto
+## Vídeo da Apresentação Final
+
+# Slides do Projeto
+
+## Slides da Proposta
+
+## Slides da Apresentação Final
+https://docs.google.com/presentation/d/1EpiuwF6t2UUW529TDlQp-v0X-hM62SiLf0D2GpQ6xX4/edit?usp=sharing
+
+# Introdução e Referenciais de Teóricos
+> Contextualização do projeto
+>
+> Caracterização do problema
+>
+> Motivação
+>
+> Relevância
+>
+> Trabalhos relacionados
+>
+> Indicação (bastante resumida) da análise proposta
+>
+> Indicação (bastante resumida) dos resultados alcançados
+
+# Estrutura do projeto
 
 ~~~
 ├── README.md          <- apresentação do projeto
@@ -56,7 +83,7 @@ https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-
 ~~~
 
    
-## Perguntas da Pesquisa 
+# Perguntas da Pesquisa 
  
 Letra/significado            | Correlação    
 -----------------------------| ------
@@ -64,14 +91,17 @@ P (pessoa/pessoas)           | brasileiros adultos
 I (intervenção)              | não temos
 C (comparativo ou comparador)| não temos
 O (desfecho a se avaliar)    | Leishmaniose
-S (tipo de estudo)           | prevalência de brasileiros com Leishmaniose nas últimas décadas e projeção para 2020.
+S (tipo de estudo)           | prevalência de brasileiros com Leishmaniose nas últimas décadas
 
 Perguntas para nosso projeto:
-Qual a prevalência de Leishmaniose no Brasil nos últimos 5 anos? E qual projeção para 2020?
+Qual a prevalência de Leishmaniose no Brasil nos últimos 5 anos? 
 É possível uma categorização dos resultados por cura e óbitos?
+
+# Objetivos do Projeto
+Objetivo deste trabalho é saber qual a prevalência de Leishmaniose no Brasil nos últimos 5 anos e quantos desses resultados é representado em cura e óbito.
          
-## Metodologia
-### Aspectos gerais
+# Metodologia
+## Aspectos gerais
 A metodologia que será utilizada para extrair conhecimento dos bancos de dados escolhidos é a CRISP-DM. Esta técnica de processamento de dados consiste em 6 fases: Entendimento do Negócio, Entendimento dos Dados, Processamento dos Dados, Modelamento, Avaliação e Entrega/Distribuição do Projeto. Essas etapas são iterativas, cíclicas e podem ser mais detalhadas à medida que o projeto avança, contendo tarefas que partem do âmbito geral até o mais específico, evoluindo no decorrer do projeto.  
 
 Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do projeto podemos dizer que a etapa atual do projeto está entre a etapa de Entendimento do Negócio e a etapa de Entendimento dos Dados uma vez que as perguntas do projeto já foram feitas e o banco de dados principal já foi escolhido, atualmente estão sendo feitos os processos de descrição e exploração dos dados.  Vale notar que, devido a característica cíclica do CRISP-DM, essas etapas e processos não são fixos podendo ser reformulados caso seja necessário, outra observação importante é que algumas das tarefas gerais de algumas etapas não se aplicam, como por exemplo a tarefa Manutenção e plano de manutenção na etapa de Distribuição. (5)
@@ -84,8 +114,8 @@ Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do pr
 
 **Imagem 2:** - CRISP-DM e suas etapas detalhadas, em negrito as tarefas gerais e em itálico seus respectivos resultados.
 
-## Bases de dados e Evolução
-### Bases não adotadas
+# Bases de dados e Evolução
+## Bases não adotadas
 
 Base de dados         |Endereço da Web                                                                                         | Resumo descritivo                         
 ----------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------
@@ -107,7 +137,7 @@ TABNET Datasus        |Contém os dados de Leishmaniose tegumentar apenas nos an
 
 Portanto como esses possíveis fontes de dados não foram aplicáveis a análise, não foi necessário realizar nenhuma análise descritiva pois de imediato já forma descartados, seja por não conter os dados que queriamos ou por ter dados secundário de um outra fonte primária de dados. Nesse ultimo caso a fonte primária de dados foi incluida como fonte principal para análise dos dados.
 
-### Bases adotadas 
+## Bases adotadas 
 
 Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                           
 -------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------
@@ -125,7 +155,7 @@ Portanto a fonte primária de dados será os dados do SINAN, e utilizaremos os d
 
 Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos indiviadualizados.
 
-### Integração entre bases de dados e Análise Exploratória
+## Integração entre bases de dados e Análise Exploratória
 
 No Sistema de notificação de agravos (SINAN), as bases para notificação de leishmaniose visceral e leishmaniose tegumentar americana são diferentes, existindo uma base para cada tipo de leishmaniose, em um dado estado e em um dado cada ano correspondentes, portanto é necessário que haja uma junção das bases. A extensão das bases presentes no SINAN é .DBC, portanto é necessário fazer uma descompactação para extensão .DBF e posterior conversão dessa extensão para .CSV, esses processos foram feitos no programa TabWin. A junção dos bancos de extensão .CSV foi feita em dois grandes bancos, um para [leishmaniose visceral](data/interim/LEIV_total.csv) e outro para [leishamniose tegumentar americana](data/interim/LTA_total.csv), visto que há diferentes campos com diferentes nomes em cada caso, a junção de todos eles em apenas um banco mostrou-se incoveniente. O processo de integração das bases pode ser encontrado aqui:
 - [Integração das bases leishmaniose tegumentar americana](notebooks/lta_merge.ipynb)
@@ -135,30 +165,23 @@ A análise exploratória foi feita para cada um dos bancos, ignorando-se os dado
 - [Análise exploratória leishmaniose tegumentar americana](notebooks/exp_analysis_LTA.ipynb)
 - [Análise exploratória leishmaniose visceral](notebooks/exp_analysis.ipynb)
 
+# Análises Realizadas
 
-## Ferramentas
+
+# Ferramentas
 
 Software Phyton/Orange - Categorização dos dados, análise estatísticas, variabilidade dos dados, classificação e análise da distribuição/correlação  
 Software STATA 14.2 - análise de prevalência
 
-## Cronograma
+# Resultados
 
-Etapa (s)                                  | Data (s)
------------------------------------------- | ------
-Entrega do Plano do Projeto - E1           | 13/abril
-Trabalhamos com HIV                        | 19 a 23/abril
-Trabalhamos com HIV                        | 26 a 30/abril
-Mudança de tema - Leishmaniose 
-e avaliação dos dados                      | 3 a 7/maio
-Entrega da bases de dados de trabalho - E2 | 11/maio
-Correções de erros e resultados            | 17 a 21/maio
-Comparação com a literatura                | 24 a 28/maio
-Embasamento teorico do trabalho final      | 31 a 04/junho
-Montar a apresentação                      | 7 a 11/junho
-Treinamento da apresentação                | 14 a 18/junho
-Entrega Final e apresentações              | 24/junho
+# Discussão
 
-## Referências
+# Conclusão
+
+# Trabalhos Futuros
+
+# Referências Bibliográficas
 1. ARAÚJO, YWKIANE L.; SILVA, ALLAN B.; FREITAS, FRANCISCA INÊS S.; LIMA, CALIANDRA MARIA B. L. Ocorrência da leishmaniose visceral na Paraíba e sua correlação com indicadores municipais Revista Saúde (Sta. Maria). 2021; 47.
 2.	PELISSARI, Daniele Maria et al . Tratamento da Leishmaniose Visceral e Leishmaniose Tegumentar Americana no Brasil. Epidemiol. Serv. Saúde,  Brasília ,  v. 20, n. 1, p. 107-110,  mar.  2011 .   
 3.	REY, L. Parasitologia. 4ª Edição. Rio de Janeiro, RJ. Editora Guanabara (2008).
