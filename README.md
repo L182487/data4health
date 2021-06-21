@@ -174,9 +174,9 @@ A análise exploratória foi feita para cada um dos bancos, ignorando-se os dado
 Software Phyton - Extração dos dados, categorização dos resultados, classificação e análise da distribuição/correlação  
 
 # Resultados
+Resultados por categoria estão na aba Notebook
+Resultados de prevalência estão no link: https://drive.google.com/file/d/1nosZxUA7TNDVSwUiUo2u4P9ej9b8W0BQ/view?usp=sharing
 
-
-Resultados de prevalência: https://drive.google.com/file/d/1nosZxUA7TNDVSwUiUo2u4P9ej9b8W0BQ/view?usp=sharing
 
 # Discussão
 
