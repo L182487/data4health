@@ -174,6 +174,9 @@ Software Phyton - Extração dos dados, categorização dos resultados, classifi
 
 # Resultados
 
+
+Resultados de prevalência: https://drive.google.com/file/d/1nosZxUA7TNDVSwUiUo2u4P9ej9b8W0BQ/view?usp=sharing
+
 # Discussão
 
 # Conclusão
