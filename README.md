@@ -40,13 +40,21 @@ https://docs.google.com/presentation/d/1EpiuwF6t2UUW529TDlQp-v0X-hM62SiLf0D2GpQ6
 As leishmanioses são antropozoonoses infectoparasitárias causadas por protozoários do gênero Leishmania sp, transmitidas por vetores flebotomíneos infectados, cujos hospedeiros definitivos são o homem e animais silvestres e domésticos quando estes têm contato com o ciclo de transmissão do parasito (1,2).
 As lesões causadas pelas leishmanias podem ser cutâneas, mucocutâneas ou viscerais (3,4).
  A Leishmaniose Tegumentar Americana (LTA ou LT) é responsável por lesões cutâneas e/ou mucocutâneas nos hospedeiros, na qual costumam apresentar lesões pápulo-vesiculosas que podem ulcerar, formando lesões características da doença com ulcera crônica, com contornos regulares, aspecto purulento e indolores, que surgem no local de entrada do parasito (3,4).
+
 A Leishmaniose Cutânea das Américas (LC) causam lesões infiltrativas na pele, do tipo nodular subcutâneo, na qual a pele e o tecido subcutâneo são envolvidos em ulcera única e geralmente indolor, de bordas elevadas e endurecidas, com fundo liso ou granuloso e secretante. O local de acometimento mais comum são as orelhas e apresenta caráter mutilante (3).
+
 A Leishmaniose Visceral (LV) ocorre pela presença do parasito no interior de células fagocíticas mononucleares de órgãos viscerais, causando, principalmente, hepato e esplenomegalias, alterações de medula óssea, linfonodos e parede intestinal. Quando de caráter agudo, pode apresentar evolução fulminante se não controlada (3,4).
+
 O tratamento das leishmanioses é extremamente hepatotóxico, fator pelo qual grande parte dos infectados pela doença optam pelo não-tratamento. O diagnóstico pode ser feito exames parasitológicos, imunológicos ou moleculares, tendo maior adesão aos testes imunológicos pelo baixo custo e rapidez de diagnóstico (3,4).
+
 A Organização Mundial da Saúde (OMS) considera as leishmanioses como um sério problema de saúde pública no mundo e as inclui na classe das seis doenças prioritárias para o desenvolvimento de ações de controle. Isso se dá pela ocorrência da antropozoonose em 80 países, apresentar prevalência mundial de 12 milhões de casos, com cerca de 400 mil novos casos/ano (1).
+
 Desde a descrição da LT no ano de 1909, a doença é notificada em vários municípios de todos os estados no Brasil, com média de 21.000 casos/ano e coeficiente de incidência de 8,6 casos/100.000 habitantes. Na região Norte do país a incidência é de 46,4 casos/100.000 habitantes, cerca de 5 vezes a mais que a incidência nacional (5). 
+
 A incidência de casos de LV no Brasil é relativa a 90% dos casos registrados na Amárica Latina. A doença é descrita em diversos municípios do Brasil e apresenta mudanças no padrão de transmissão de ambientes rurais para ambientes urbanos. Há cerca de 3.500 casos/anuais e incidência de 2,0 casos/100.000 habitantes (6). 
+
 O projeto tem como objetivo avaliar os bancos de dados do SINAN sobre os casos de Leishmaniose cutânea e visceral, avaliar as estatísticas de prevalência dos últimos 5 anos, categorizar os resultados e comparar os dados para a doença. 
+
 Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e que a disponibilização de dados ocorra por meio de boletins epidemiológicos, nota-se pela ausência dos dados e por erros de digitação, que ainda temos muitas oportunidades de melhoria nesse sistema de notificação e que os boletins estão divulgando resultados por vezes não englobando várias variáveis como esse projeto realizou. E apesar de ser um assunto com muitas publicações, ainda dos muitos pilares citados nesse projeto não são justificados requerendo mais pesquisas para respondê-los.
 
 
