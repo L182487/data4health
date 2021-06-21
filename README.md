@@ -176,8 +176,12 @@ Software Phyton - Extração dos dados, categorização dos resultados, classifi
 # Resultados
 Resultados por categoria estão na aba Notebook e os resultados de prevalência estão no link: https://drive.google.com/file/d/1nosZxUA7TNDVSwUiUo2u4P9ej9b8W0BQ/view?usp=sharing
 
+Em 2019, a prevalência de Leishmaniose foi de 3 a cada 100 pessoas por Leishmaniose Visceral e 6 a cada 100 pessoas por Leishmaniose tegumentar. De 2018 até 2019, a quantidade de casos notificados tem reduzido e os casos notificados em sua maioria são resultantes de cura com poucos casos de óbitos por essa patologia, apesar da alta toxicidade do tratamento. A mortalidade observada nos casos notificados é em suma maior para as pessoas maiores de 80 anos tanto na Leishmaniose tegumentar como na Visceral, porém na Leishmaniose tegumentar essa porcentagem de óbitos para maiores de 80 anos corresponde quase a metade dos óbitos, enquanto a mortalidade por Leishmaniose viusceral também é frequente em pessoas maiores de 65 anos. 
+Avaliando os casos de Leishmaniose por idade, nota-se que a maior parte dos casos notificados para Leishmaniose visceral são das faixas etárias: 1-4 e 20-59 anos. Já para Leishmaniose tegumentar, nota-se que a maior parte dos casos notificados são das faixas etárias de 20-59 anos.
 
 # Discussão
+
+
 
 # Conclusão
 
