@@ -44,6 +44,7 @@ https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-
 # Slides do Projeto
 
 ## Slides da Proposta
+https://docs.google.com/presentation/d/1jNVG5HN8Lp4eZ58-ug4YLRouo5puOsLnTsXeQ8nQ1OY/edit?usp=sharing
 
 ## Slides da Apresentação Final
 https://docs.google.com/presentation/d/1EpiuwF6t2UUW529TDlQp-v0X-hM62SiLf0D2GpQ6xX4/edit?usp=sharing
