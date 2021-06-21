@@ -170,8 +170,7 @@ A análise exploratória foi feita para cada um dos bancos, ignorando-se os dado
 
 # Ferramentas
 
-Software Phyton/Orange - Categorização dos dados, análise estatísticas, variabilidade dos dados, classificação e análise da distribuição/correlação  
-Software STATA 14.2 - análise de prevalência
+Software Phyton - Extração dos dados, categorização dos resultados, classificação e análise da distribuição/correlação  
 
 # Resultados
 
