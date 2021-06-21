@@ -193,7 +193,7 @@ Um estudo que avaliou a incidência de Leishmaniose nos últimos anos mostrou a 
 
 # Conclusão
 
-Apesar da prevalência de Leishmaniose estar reduzindo nos útlimos anos, ainda é uma patologia de notificação compulsória e que necessita atenção devido hitoricamente já ter sido tratada como uma doença endêmica. Portanto é necessário a monitoração e ações constantes para erradiação dessa patologia, principalmente em áreas cujo o vetor é mais comum como áreas de clima quente e úmido e áreas de baixo saneamento e cuidados com a saúde. 
+Apesar da prevalência de Leishmaniose estar reduzindo nos útlimos anos, ainda é uma patologia de notificação compulsória e que necessita atenção devido historicamente já ter sido tratada como uma doença endêmica. Portanto é necessário a monitoração e ações constantes para erradiação dessa patologia, principalmente em áreas cujo o vetor é mais comum como áreas de clima quente e úmido e áreas de baixo saneamento e cuidados com a saúde. 
 
 Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e que a disponibilização de dados ocorra por meio de boletins epidemiológicos, nota-se pela ausência dos dados e por erros de digitação, que ainda temos muitas oportunidades de melhoria nesse sistema de notificação e que os boletins estão divulgando resultados por vezes não englobando várias variáveis como esse projeto realizou. E apesar de ser um assunto com muitas publicações, ainda dos muitos pilares citados nesse projeto não são justificados requerindo mais pesquisas para respondê-los.
 
