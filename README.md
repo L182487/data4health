@@ -181,11 +181,25 @@ Avaliando os casos de Leishmaniose por idade, nota-se que a maior parte dos caso
 
 # Discussão
 
+Esse projeto encontrou uma maior prevalência em Leishmaniose tegumentar em relação Leishmaniose visceral, focada em grande parte em adultos de 20-59 anos, com maior porcentagem de cura em relação a óbitos, apesar da alta toxicidade do tratamento. Esses resultados 
 
+Uma revisão sistemática realizada entre 2017 e 2018 com objetivo de avaliar a prevalência de Leishmaniose na Etiópia encontrou um resultado de 21% de Leishmaniose humana, sendo maior número de casos por Leishmaniose tegumentar (29%) do que por Leishmaniose visceral (16%). Um estudo transversal com objetivo de avaliar a prevalência de infecção por Leishmaniose na Tailândia entre 2015 e 2016 observou um resultado de 25% de casos (182 infectados) dos 724 avaliados, dos quais 164 casos eram da região Sul do país que se trata de uma região mais úmida e mais agrícola, demonstrando que o clima e a umidade favorecem o habitat do mosquito vetor dessa patologia. Esses resultados demonstram que a Leishmaniose é uma patologia de regiões mais subdesenvolvidas e de clima tropical/úmido que favorecem o crescimento do mosquito (vetor).  
+
+O Global burden disease publicado em 2015 mostrou uma maior prevalência da Leishmaniose tegumentar (3896%) do que em relação a Leishmaniose visceral (61%). Uma hipótese associada a esse resultado seria o fato da leishmaniose tegumentar americana ser de mais fácil identificação por atacar a pele e as mucosas, enquanto a leishmaniose visceral  que ataca órgãos internos, ser de mais dificil identificação ou ser identificada erroneamente com outras patologias, porém essa diferença não é muito bem relatada na literatura e necessita de mais investigação.
+
+O Global burden disease publicado em 2016 sobre Leishmaniose no Brasil, mostrou que a incidência de casos dessa patologia diminui em 49% de 1990 a 2016. Outro estudo, que avaliou a incidência de Leishmaniose nos últimos anos mostrou uma flutuação entre 1977 e 2015, mas com queda nos últimos anos. Um estudo que realizou uma análise bibliométrica de pesquisa global sobre leishmaniose no banco de dados da Web of Science, observou que foram indexados 13.658 registros no sobre a leishmaniose na base de dados da Web of Science para este período de dez anos de estudo (2006-2015). Mostrando um crescimento de pesquisas sobre esse assunto. O Brasil ocupa o primeiro lugar na produção científica, realizando 3315 estudos sobre leishmaniose.  Essa redução de casos nos ultimos anos pode ser associada a maiores pesquisas e controle sobre o tema bem como a introdução de programas políticos para erradicação de outras patologias como malária, que consequentemente influenciam na diminuição de casos de Leishmaniose bem como a expansão de área urbanas com maior saneamento. 
+
+Um estudo que avaliou a incidência de Leishmaniose nos últimos anos mostrou a influência de casos por faixa etária, sendo maior em 5-44 anos, demonstrando que é muito comum casos de Leishmaniose em adultos, porém não encontra-se na literatura uma explicação que justifique o porque somente em Leishmaniose viscreal há um maior prevalência de crianças 1-4 anos além de adultos maiores de 20 anos. Um hipótese é que as crianças tem maior susceptilidade a doenças devido a imaturidade imunológica e de uma maior exposição ao vetor no peridomicílio (cão e gato) mas em contra partida muitos casos de Leishmaniose estão associados a outras doenças como HIV que remetem a notificação e maiores cuidados. Mas como esse resultados não são mito bem relatados na literatura, eles necessitam de mais investigação.
 
 # Conclusão
 
+Apesar da prevalência de Leishmaniose estar reduzindo nos útlimos anos, ainda é uma patologia de notificação compulsória e que necessita atenção devido hitoricamente já ter sido tratada como uma doença endêmica. Portanto é necessário a monitoração e ações constantes para erradiação dessa patologia, principalmente em áreas cujo o vetor é mais comum como áreas de clima quente e úmido e áreas de baixo saneamento e cuidados com a saúde. 
+
+Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e que a disponibilização de dados ocorra por meio de boletins epidemiológicos, nota-se pela ausência dos dados e por erros de digitação, que ainda temos muitas oportunidades de melhoria nesse sistema de notificação e que os boletins estão divulgando resultados por vezes não englobando várias variáveis como esse projeto realizou. E apesar de ser um assunto com muitas publicações, ainda dos muitos pilares citados nesse projeto não são justificados requerindo mais pesquisas para respondê-los.
+
 # Trabalhos Futuros
+
+
 
 # Referências Bibliográficas
 1. ARAÚJO, YWKIANE L.; SILVA, ALLAN B.; FREITAS, FRANCISCA INÊS S.; LIMA, CALIANDRA MARIA B. L. Ocorrência da leishmaniose visceral na Paraíba e sua correlação com indicadores municipais Revista Saúde (Sta. Maria). 2021; 47.
