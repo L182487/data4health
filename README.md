@@ -19,6 +19,8 @@ Para a disciplina de Visualização de dados na saúde inicialmente escolhemos o
 
 Nota: o README do HIV consta nesse github para consulta, mostrando o histórico e o que foi observado. Ele consta na pasta: data4health/assets/docs. 
 
+# Descrição Resumida do Projeto
+
 
 
 # Vídeos do Projeto
@@ -77,7 +79,6 @@ Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e q
 │
 └── assets             <- mídias usadas no projeto
 ~~~
-
    
 # Perguntas da Pesquisa 
  
@@ -163,10 +164,59 @@ A análise exploratória foi feita para cada um dos bancos, ignorando-se os dado
 
 # Análises Realizadas
 
+As análises realizadas estão no mesmo caderno jupyter das [análises exploratórias](notebooks), durante a etapa de análise exploratória, também foi feita a filtragem dos dados selecionando dos bancos de dados brutos apenas os campos classificados como essenciais/obrigatórios. Além dessa filtragem inicial, registros, onde os campos obrigatórios apresentassem como preenchimento que o campo foi ignorado, foram excluídos da análise. Entre esses registros excluídos podemos destacar aqueles cujos campos de sintomas vieram preenchidos como não verificado, ou ainda no caso do campo sexo, quando este estava preenchido com sexo indefinido,  também podemos destacar a exclusão das notificações onde o paciente foi transferido para outra unidade de saúde ou faltava informações a respeito da evolução do caso, uma vez que a situação final do paciente é uma informação necessária para fazer as análises.
+
+A principal dificuldade durante o período de aquisição dessas bases foi encontrar o local onde as bases estavam presentes, sendo este um dos motivos da mudança do tema do projeto, uma vez que para o HIV, apesar de possuir notificação compulsória essas notificações não estavam acessíveis ao público de forma bruta, estando apenas disponível resumo dessas informações. Outra dificuldade foi a falta de dados que seriam interessantes para as análises, como o campo que contém o peso dos pacientes ou ainda o campo que informa o número de doses administradas ao paciente no caso de tratamento.
+
+Após a extrações dos dados, nosso estudo foi feito sobre os aspectos de cada leishmaniose, cuja possuí 2 variantes que são a <b>tegumentar</b> e a <b>visceral</b>, tudo foi feito análogamente em cada uma destas variantes porém para fins de concisão deste documento README.md, será abordado aqui somente descrições/visualizações gráficas da leishmaniose visceral, para mais detalhes sobre a leishmaniose tegumentar veja [Análise exploratória leishmaniose tegumentar americana](notebooks/exp_analysis_LTA.ipynb).
+
+Ao começar a analizar os dados sobre a leishmaniose, consideramos que primeiramente deveríamos verificar como é que foi a progressão de casos de leishmaniose visceral no Brasil e em seus estados desde 2007 até 2019 para verificarmos como esta doença vem afetando a população brasileira e em seguida verificar quais aspectos desta doença são relevantes nos casos constatados.
+
+<img src="assets/images/casos_leishv_07_19.png" alt="contagem de casos de leish_visc" width="300" heigth="450"/>
+
+<img src="assets/images/incidencia07-19.png" alt="leishmaniose visceral no brasil" width="300" heigth="450"/>
+
+Inicialmente foi constatado que ao longo dos anos de 2007 até 2019, houve um crescimento considerável na quantidade de casos levando em conta que houveram situações pico de casos seguidos de uma leve queda, comportamento contrastante com a variante <i>tegumentar</i> que esteve em queda desde 2007. Após termos observado a contagem de casos, partimos para estudar qual é a situação padrão da evolução de um quadro clínico com leishmaniose visceral nos anos observados.
+
+<img src="assets/images/situacao_leishv_07_19.png" alt="evolucao da leishmaniose visceral" width="300" heigth="450"/>
+
+Com o gráfico foi possível analizarmos que os casos são majoritáriamente resultados em cura ( aproximadamente 91% dos casos ), porém em contrapartida aproximadamente 4% dos casos de leishmaniose visceral resultam em óbito pela doença e assim partimos para estudar quais os fatores que poderiam agravar a situação desta comorbidade.
+
+<img src="assets/images/sintomas_leishv.png" alt="sintomas da leishmaniose visceral" width="300" heigth="450"/>
+
+No gráfico que demonstra a porcentagem de pacientes que chegam a desenvolver algum dos sintomas típicos da leishmaniose visceral, considerando que todos os sintomas são um risco em potêncial, foi possível ver sintomas mais perigosos para a saúde do paciente como hemorragia ocorriam em menor frequência ( 9.1% dos pacientes ), portanto partimos para estudar outra variável que talvez fosse mais crítica nos casos da doença e assim escolhemos <i>idade</i>.
+
+<img src="assets/images/mortalidade_lieshv_07_19.png" alt="mortalidade leishmaniose visceral" width="300" heigth="450"/>
+
+Ao observar o gráfico vemos que maior incidência de casos ficam situados na faixa de 1 a 4 anos de idade e também na faixa de 20 até 59 anos, foi possível também observar o quão influente a idade é no agravamento da situação dos pacientes, a taxa de mortalidade de pacientes com a enfermidade só aumenta conforme mais idoso, chegando a um pico de 24% de taxa de óbito para pacientes com mais de 80 anos de idade.
+
+Após estas análises, fomos estudar qual seria o comportamento dos casos de leishmaniose visceral ao longo dos próximos anos, utilizamos 2 modelos neste estudo, um modelo auto-regressivo estocástico e um determinístico, sendo o determinístico assumindo que há uma sazonalidade nestes dados sobre ocorrências de casos de leishmaniose visceral.
+
+<img src="assets/images/modelos_leishv_comp.png" alt="comparativo dos modelos das series temporais" width="300" heigth="450"/>
+
+Através destes modelos gerados a partir de nossos dados, podemos observar um comportamento similar aos dados originais e assim podemos começar a usar estas novas séries temporais para predizer possíveis comportamentos dos nossos dados originais nos futuros casos de leishmaniose visceral. 
+
+<img src="assets/images/modelos_leishv_07_19.png" alt="forecast dos modelos" width="300" heigth="450"/>
+
+No gráfico das predições estocásticas plotadas, observamos um comportamento crescente de casos com um intervalo de confiabilidade de 95% entre os valores de 5000 e 7600 casos, enquanto no gráfico determinístico temos um padrão oscilatório que inicialmente leva a uma diminuição dos casos e por conseguinte novos aumentos conforme o padrão cíclico que o modelo considerou como apropriado para esta série temporal.
+
+Através destas análises obtivemos somente algumas perspectivas da leishmaniose de forma que para termos uma compreensão mais completa destes dados necessitaríamos checar de diferentes fontes de dados, obter informações da outras regiões e ter estudos sobre o comportamento desta doença acerca de outros vetores que não sejam humanos, entre outras considerações que possam ter sidas deixadas de fora. 
 
 # Ferramentas
 
 Software Phyton - Extração dos dados, categorização dos resultados, classificação e análise da distribuição/correlação  
+
+
+| Ferramenta | Descrição |
+|------------|-----------|
+| TabWin 4.5 | Programa utilizado para transformar os bancos de dados originais em formatos mais fáceis de uso. |
+| Python | Liguagem utilizada para o processamento dos bancos de dados. |
+| Jupyter Notebook | Ambiente onde foi executado o código na linguagem python que permite a visualização imediata dos resultados no própio ambiente. |
+| Pandas | Biblioteca utilzada para fazer o gerenciamento e seleção de dados dos bancos de dados. |
+| Numpy | Biblioteca utilizada para fazer manipulações numéricas sobre os dados.|
+| Statsmodels | Biblioteca utilizada modelagem estatística. |
+| Matplotlib e Seaborn | Bibliotecas utilizadas parta criação de gráficos e visualização de dados. |
+
 
 # Resultados
 Resultados por categoria estão na aba Notebook e os resultados de prevalência estão no link: https://drive.google.com/file/d/1nosZxUA7TNDVSwUiUo2u4P9ej9b8W0BQ/view?usp=sharing
@@ -201,7 +251,7 @@ Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e q
 # Trabalhos Futuros
 
 Pensando em trabalhos futuros, seria necessário mais investigações a respeito das causas associadas que foram identificadas nesse trabalho e que vimos poucas explicações na literatura. Avaliar outros dados do banco de dados do SINAN, visto que esse banco contém informações a respeito de diagnostico e tratamento que esse trabalho não avaliou. 
-Avaliar a influência de outras patologias associadas ou não a Leishmaniose (como por exemplo, alguns estudos avaliam a associação com HIV).
+Avaliar a influência de outras patologias associadas ou não a Leishmaniose (como por exemplo, alguns estudos avaliam a associação com HIV). Outras possibilidades seria a realização de uma revisão sistemática e até verificação da leishmaniose em cães.
 
 # Referências Bibliográficas
 1.	 ARAÚJO, YWKIANE L.; SILVA, ALLAN B.; FREITAS, FRANCISCA INÊS S.; LIMA, CALIANDRA MARIA B. L. Ocorrência da leishmaniose visceral na Paraíba e sua correlação com indicadores municipais Revista Saúde (Sta. Maria). 2021; 47.
