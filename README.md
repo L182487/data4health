@@ -172,21 +172,23 @@ Após a extrações dos dados, nosso estudo foi feito sobre os aspectos de cada 
 
 Ao começar a analizar os dados sobre a leishmaniose, consideramos que primeiramente deveríamos verificar como é que foi a progressão de casos de leishmaniose visceral no Brasil e em seus estados desde 2007 até 2019 para verificarmos como esta doença vem afetando a população brasileira e em seguida verificar quais aspectos desta doença são relevantes nos casos constatados.
 
-<img src="assets/images/casos_leishv_07_19.png" alt="contagem de casos de leish_visc" width="300" heigth="450"/>
+<p float="left">
+<img src="assets/images/casos_leishv_07_19.png" alt="contagem de casos de leish_visc" width="450" heigth="450"/>
 
-<img src="assets/images/incidencia07-19.png" alt="leishmaniose visceral no brasil" width="300" heigth="450"/>
+<img src="assets/images/incidencia07-19.png" alt="leishmaniose visceral no brasil" width="450" heigth="450"/>
+</p>
 
 Inicialmente foi constatado que ao longo dos anos de 2007 até 2019, houve um crescimento considerável na quantidade de casos levando em conta que houveram situações pico de casos seguidos de uma leve queda, comportamento contrastante com a variante <i>tegumentar</i> que esteve em queda desde 2007. Após termos observado a contagem de casos, partimos para estudar qual é a situação padrão da evolução de um quadro clínico com leishmaniose visceral nos anos observados.
 
-<img src="assets/images/situacao_leishv_07_19.png" alt="evolucao da leishmaniose visceral" width="300" heigth="450"/>
+<img src="assets/images/situacao_leishhv_07_19.png" alt="evolucao da leishmaniose visceral" width="300" heigth="450"/>
 
 Com o gráfico foi possível analizarmos que os casos são majoritáriamente resultados em cura ( aproximadamente 91% dos casos ), porém em contrapartida aproximadamente 4% dos casos de leishmaniose visceral resultam em óbito pela doença e assim partimos para estudar quais os fatores que poderiam agravar a situação desta comorbidade.
 
-<img src="assets/images/sintomas_leishv.png" alt="sintomas da leishmaniose visceral" width="300" heigth="450"/>
+<img src="assets/images/sintomas_leishv.png" alt="sintomas da leishmaniose visceral" width="450" heigth="450"/>
 
 No gráfico que demonstra a porcentagem de pacientes que chegam a desenvolver algum dos sintomas típicos da leishmaniose visceral, considerando que todos os sintomas são um risco em potêncial, foi possível ver sintomas mais perigosos para a saúde do paciente como hemorragia ocorriam em menor frequência ( 9.1% dos pacientes ), portanto partimos para estudar outra variável que talvez fosse mais crítica nos casos da doença e assim escolhemos <i>idade</i>.
 
-<img src="assets/images/mortalidade_lieshv_07_19.png" alt="mortalidade leishmaniose visceral" width="300" heigth="450"/>
+<img src="assets/images/mortalidade_leishv_07_19.png" alt="mortalidade leishmaniose visceral" width="450" heigth="450"/>
 
 Ao observar o gráfico vemos que maior incidência de casos ficam situados na faixa de 1 a 4 anos de idade e também na faixa de 20 até 59 anos, foi possível também observar o quão influente a idade é no agravamento da situação dos pacientes, a taxa de mortalidade de pacientes com a enfermidade só aumenta conforme mais idoso, chegando a um pico de 24% de taxa de óbito para pacientes com mais de 80 anos de idade.
 
