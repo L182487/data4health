@@ -186,7 +186,7 @@ Com o gráfico foi possível analizarmos que os casos são majoritáriamente res
 
 <img src="assets/images/sintomas_leishv.png" alt="sintomas da leishmaniose visceral" width="450" heigth="450"/>
 
-No gráfico que demonstra a porcentagem de pacientes que chegam a desenvolver algum dos sintomas típicos da leishmaniose visceral, considerando que todos os sintomas são um risco em potêncial, foi possível ver sintomas mais perigosos para a saúde do paciente como hemorragia ocorriam em menor frequência ( 9.1% dos pacientes ), portanto partimos para estudar outra variável que talvez fosse mais crítica nos casos da doença e assim escolhemos <i>idade</i>.
+No gráfico que demonstra a porcentagem de pacientes que chegam a desenvolver algum dos sintomas típicos da leishmaniose visceral, foi possível ver que alguns sintomas mais perigosos para a saúde do paciente como hemorragia ocorriam em menor frequência ( 9.1% dos pacientes ), portanto partimos para estudar outra variável que talvez fosse mais crítica nos casos da doença e assim escolhemos <i>idade</i>.
 
 <img src="assets/images/mortalidade_leishv_07_19.png" alt="mortalidade leishmaniose visceral" width="650" heigth="650"/>
 
@@ -194,7 +194,7 @@ Ao observar o gráfico vemos que maior incidência de casos ficam situados na fa
 
 Após estas análises, fomos estudar qual seria o comportamento dos casos de leishmaniose visceral ao longo dos próximos anos, utilizamos 2 modelos neste estudo, um modelo auto-regressivo estocástico e um determinístico, sendo o determinístico assumindo que há uma sazonalidade nestes dados sobre ocorrências de casos de leishmaniose visceral.
 
-<img src="assets/images/modelos_leishv_comp.png" alt="comparativo dos modelos das series temporais" width="550" heigth="550"/>
+<img src="assets/images/modelos_leishv_comp.png" alt="comparativo dos modelos das series temporais" width="450" heigth="450"/>
 
 Através destes modelos gerados a partir de nossos dados, podemos observar um comportamento similar aos dados originais e assim podemos começar a usar estas novas séries temporais para predizer possíveis comportamentos dos nossos dados originais nos futuros casos de leishmaniose visceral. 
 
