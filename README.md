@@ -175,12 +175,12 @@ Ao começar a analizar os dados sobre a leishmaniose, consideramos que primeiram
 <p float="left">
 <img src="assets/images/casos_leishv_07_19.png" alt="contagem de casos de leish_visc" width="450" heigth="450"/>
 
-<img src="assets/images/incidencia07-19.png" alt="leishmaniose visceral no brasil" width="450" heigth="450"/>
+<img src="assets/images/incidencia07-19.png" alt="leishmaniose visceral no brasil" width="450" heigth="550"/>
 </p>
 
 Inicialmente foi constatado que ao longo dos anos de 2007 até 2019, houve um crescimento considerável na quantidade de casos levando em conta que houveram situações pico de casos seguidos de uma leve queda, comportamento contrastante com a variante <i>tegumentar</i> que esteve em queda desde 2007. Após termos observado a contagem de casos, partimos para estudar qual é a situação padrão da evolução de um quadro clínico com leishmaniose visceral nos anos observados.
 
-<img src="assets/images/situacao_leishhv_07_19.png" alt="evolucao da leishmaniose visceral" width="300" heigth="450"/>
+<img src="assets/images/situacao_leishhv_07_19.png" alt="evolucao da leishmaniose visceral" width="450" heigth="450"/>
 
 Com o gráfico foi possível analizarmos que os casos são majoritáriamente resultados em cura ( aproximadamente 91% dos casos ), porém em contrapartida aproximadamente 4% dos casos de leishmaniose visceral resultam em óbito pela doença e assim partimos para estudar quais os fatores que poderiam agravar a situação desta comorbidade.
 
@@ -188,7 +188,7 @@ Com o gráfico foi possível analizarmos que os casos são majoritáriamente res
 
 No gráfico que demonstra a porcentagem de pacientes que chegam a desenvolver algum dos sintomas típicos da leishmaniose visceral, considerando que todos os sintomas são um risco em potêncial, foi possível ver sintomas mais perigosos para a saúde do paciente como hemorragia ocorriam em menor frequência ( 9.1% dos pacientes ), portanto partimos para estudar outra variável que talvez fosse mais crítica nos casos da doença e assim escolhemos <i>idade</i>.
 
-<img src="assets/images/mortalidade_leishv_07_19.png" alt="mortalidade leishmaniose visceral" width="450" heigth="450"/>
+<img src="assets/images/mortalidade_leishv_07_19.png" alt="mortalidade leishmaniose visceral" width="450" heigth="650"/>
 
 Ao observar o gráfico vemos que maior incidência de casos ficam situados na faixa de 1 a 4 anos de idade e também na faixa de 20 até 59 anos, foi possível também observar o quão influente a idade é no agravamento da situação dos pacientes, a taxa de mortalidade de pacientes com a enfermidade só aumenta conforme mais idoso, chegando a um pico de 24% de taxa de óbito para pacientes com mais de 80 anos de idade.
 
@@ -198,7 +198,7 @@ Após estas análises, fomos estudar qual seria o comportamento dos casos de lei
 
 Através destes modelos gerados a partir de nossos dados, podemos observar um comportamento similar aos dados originais e assim podemos começar a usar estas novas séries temporais para predizer possíveis comportamentos dos nossos dados originais nos futuros casos de leishmaniose visceral. 
 
-<img src="assets/images/modelos_leishv_07_19.png" alt="forecast dos modelos" width="300" heigth="450"/>
+<img src="assets/images/modelos_leishv_07_19.png" alt="forecast dos modelos" width="700" heigth="650"/>
 
 No gráfico das predições estocásticas plotadas, observamos um comportamento crescente de casos com um intervalo de confiabilidade de 95% entre os valores de 5000 e 7600 casos, enquanto no gráfico determinístico temos um padrão oscilatório que inicialmente leva a uma diminuição dos casos e por conseguinte novos aumentos conforme o padrão cíclico que o modelo considerou como apropriado para esta série temporal.
 
