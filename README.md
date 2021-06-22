@@ -180,7 +180,7 @@ Ao começar a analizar os dados sobre a leishmaniose, consideramos que primeiram
 
 Inicialmente foi constatado que ao longo dos anos de 2007 até 2019, houve um crescimento considerável na quantidade de casos levando em conta que houveram situações pico de casos seguidos de uma leve queda, comportamento contrastante com a variante <i>tegumentar</i> que esteve em queda desde 2007. Após termos observado a contagem de casos, partimos para estudar qual é a situação padrão da evolução de um quadro clínico com leishmaniose visceral nos anos observados.
 
-<img src="assets/images/situacao_leishhv_07_19.png" alt="evolucao da leishmaniose visceral" width="450" heigth="450"/>
+<img src="assets/images/situacao_leishhv_07_19.png" alt="evolucao da leishmaniose visceral" width="400" heigth="400"/>
 
 Com o gráfico foi possível analizarmos que os casos são majoritáriamente resultados em cura ( aproximadamente 91% dos casos ), porém em contrapartida aproximadamente 4% dos casos de leishmaniose visceral resultam em óbito pela doença e assim partimos para estudar quais os fatores que poderiam agravar a situação desta comorbidade.
 
@@ -200,7 +200,7 @@ Através destes modelos gerados a partir de nossos dados, podemos observar um co
 
 <img src="assets/images/modelos_leishv_07_19.png" alt="forecast dos modelos" width="700" heigth="650"/>
 
-No gráfico das predições estocásticas plotadas, observamos um comportamento crescente de casos com um intervalo de confiabilidade de 95% entre os valores de 5000 e 7600 casos, enquanto no gráfico determinístico temos um padrão oscilatório que inicialmente leva a uma diminuição dos casos e por conseguinte novos aumentos conforme o padrão cíclico que o modelo considerou como apropriado para esta série temporal.
+No gráfico das predições estocásticas plotadas, observamos um comportamento crescente de casos com um intervalo de confiabilidade de 95% entre os valores de 5000 e 7600 casos, enquanto no gráfico determinístico temos um padrão oscilatório com 95% de confiabilidade inicialmente entre 4100 e 5400 casos cujo leva a uma diminuição dos casos e por conseguinte novos aumentos conforme o padrão cíclico que o modelo considerou como apropriado para esta série temporal.
 
 Através destas análises obtivemos somente algumas perspectivas da leishmaniose de forma que para termos uma compreensão mais completa destes dados necessitaríamos checar de diferentes fontes de dados, obter informações da outras regiões e ter estudos sobre o comportamento desta doença acerca de outros vetores que não sejam humanos, entre outras considerações que possam ter sidas deixadas de fora. 
 
