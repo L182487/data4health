@@ -22,6 +22,11 @@ Nota: o README do HIV consta nesse github para consulta, mostrando o histórico 
 # Descrição Resumida do Projeto
 
 
+Leishmanioses são antropozoonoses infectoparasitárias transmitidas por vetores flebotomíneos infectados causadas por protozoários do gênero Leishmania sp. Os hospedeiros definitivos são o homem e animais silvestres e domésticos quando estes têm contato com o ciclo de transmissão do parasito (1,2). Os contaminados pelo protozoário apresentam lesões que podem ser cutâneas, mucocutâneas ou viscerais (3,4).
+
+O objetivo desse estudo é avaliar bancos de dados do SINAN sobre os casos de Leishmaniose cutânea e visceral, avaliar as prevalências, categorizar os resultados e comparar os dados para a doença. Embora o sistema de notificação seja compulsório, nota-se que ainda há muitas oportunidades de melhoria no sistema de notificação e que os boletins estão divulgando resultados que não englobam variáveis significativamente importantes.
+
+
 
 # Vídeos do Projeto
 
