@@ -134,7 +134,7 @@ TABNET Datasus        |Contém os dados de Leishmaniose tegumentar apenas nos an
 
 Portanto como esses possíveis fontes de dados não foram aplicáveis a análise, não foi necessário realizar nenhuma análise descritiva pois de imediato já forma descartados, seja por não conter os dados que queriamos ou por ter dados secundário de um outra fonte primária de dados. Nesse ultimo caso a fonte primária de dados foi incluida como fonte principal para análise dos dados.
 
-## Bases adotadas (ref.8,9)
+## Bases adotadas
 
 Base de dados            |Endereço da Web                                                                                         | Resumo descritivo                           
 -------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------
@@ -148,7 +148,7 @@ SINAN                   |Contém todos os dados do Brasil por ano, sexo e regiã
 Estimativas da População|Contém dados da população em geral por ano para calculo de prevalência 
 População - censo       |Contém dados da população em 2010 para calculo de prevalência
 
-Portanto a fonte primária de dados será os dados do SINAN, e utilizaremos os dados de população do IBGE para avaliar a prevalência por ano. Como os bancos de dados de Leishmaniose Visceral e Leishmaniose Tegumentar são bem extensos por vários anos, resolvemos focar nos ultimos 5 anos queu são dados mais recentes da população brasileira.
+Portanto a fonte primária de dados será os dados do SINAN, (8) e utilizaremos os dados de população do IBGE, (9) para avaliar a prevalência por ano. Como os bancos de dados de Leishmaniose Visceral e Leishmaniose Tegumentar são bem extensos por vários anos, resolvemos focar nos ultimos 5 anos queu são dados mais recentes da população brasileira.
 
 Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos indiviadualizados.
 
