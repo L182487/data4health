@@ -34,6 +34,7 @@ O objetivo desse estudo é avaliar bancos de dados do SINAN sobre os casos de Le
 https://user-images.githubusercontent.com/81878392/117465417-0efdd180-af28-11eb-84a1-64b5e11d17cd.mp4
 
 ## Vídeo da Apresentação Final
+https://drive.google.com/file/d/12hH27G4U4z_7waHSwR5Ls9yhpAx5Sbkj/view?usp=sharing
 
 # Slides do Projeto
 
