@@ -10,21 +10,21 @@ Nome                     | RA    | Especialização
 -------------------------| ------| --------------
 Carolina Muller Ferreira |210904 | Saúde
 Letícia Moreno           |235497 | Saúde
-Lucas Feliciano da Silva |182487 | TI 
+Lucas Feliciano da Silva |182487 | TI
 Paulo Victor             |224943 | TI
 
 # Histórico - mudança de tema
 
-Para a disciplina de Visualização de dados na saúde inicialmente escolhemos o tema HIV, buscando a prevalência de HIV no Brasil. Porém ao visualizar os possíveis banco de dados cuja fonte principal era os dados do SINAN (Sistema de Informação de Agravos de Notificação), observamos que não há disponível os dados brutos de HIV no SINAN para download, portanto resolvemos mudar de tema e escolher um tema que estivesse os dados disponíveis para download na plataforma do SINAN/Datasus. Dessa forma o novo tema é Lesihmaniose, e o objetivo desse trabalho é avaliar a prevalência de Leishmaniose no Brasil.
+Para a disciplina de Visualização de dados na saúde inicialmente escolhemos o tema HIV, buscando a prevalência de HIV no Brasil. Porém ao visualizar os possíveis banco de dados cuja fonte principal era os dados do SINAN (Sistema de Informação de Agravos de Notificação), observamos que não há disponível os dados brutos de HIV no SINAN para download, portanto resolvemos mudar de tema e escolher um tema que estivesse os dados disponíveis para download na plataforma do SINAN/Datasus. Dessa forma o novo tema é Leishmaniose, e o objetivo desse trabalho é avaliar a prevalência de Leishmaniose no Brasil.
 
-Nota: o README do HIV consta nesse github para consulta, mostrando o histórico e o que foi observado. Ele consta na pasta: data4health/assets/docs. 
+Nota: o README do HIV consta nesse github para consulta, mostrando o histórico e o que foi observado. Ele consta na pasta: data4health/assets/docs.
 
 # Descrição Resumida do Projeto
 
 
 Leishmanioses são antropozoonoses infectoparasitárias transmitidas por vetores flebotomíneos infectados causadas por protozoários do gênero Leishmania sp. Os hospedeiros definitivos são o homem e animais silvestres e domésticos quando estes têm contato com o ciclo de transmissão do parasito (1,2). Os contaminados pelo protozoário apresentam lesões que podem ser cutâneas, mucocutâneas ou viscerais (3,4).
 
-O objetivo desse estudo é avaliar bancos de dados do SINAN sobre os casos de Leishmaniose cutânea e visceral, avaliar as prevalências, categorizar os resultados e comparar os dados para a doença. Embora o sistema de notificação seja compulsório, nota-se que ainda há muitas oportunidades de melhoria no sistema de notificação e que os boletins estão divulgando resultados que não englobam variáveis significativamente importantes.
+O objetivo deste estudo é avaliar bancos de dados do SINAN sobre os casos de Leishmaniose cutânea e visceral, avaliar as prevalências, categorizar os resultados e comparar os dados para a doença. Embora o sistema de notificação seja compulsório, nota-se que ainda há muitas oportunidades de melhoria no sistema de notificação e que os boletins estão divulgando resultados que não englobam variáveis significativamente importantes.
 
 
 
@@ -47,21 +47,21 @@ https://docs.google.com/presentation/d/1EpiuwF6t2UUW529TDlQp-v0X-hM62SiLf0D2GpQ6
 # Introdução e Referenciais de Teóricos
 As leishmanioses são antropozoonoses infectoparasitárias causadas por protozoários do gênero Leishmania sp, transmitidas por vetores flebotomíneos infectados, cujos hospedeiros definitivos são o homem e animais silvestres e domésticos quando estes têm contato com o ciclo de transmissão do parasito (1,2).
 As lesões causadas pelas leishmanias podem ser cutâneas, mucocutâneas ou viscerais (3,4).
- A Leishmaniose Tegumentar Americana (LTA ou LT) é responsável por lesões cutâneas e/ou mucocutâneas nos hospedeiros, na qual costumam apresentar lesões pápulo-vesiculosas que podem ulcerar, formando lesões características da doença com ulcera crônica, com contornos regulares, aspecto purulento e indolores, que surgem no local de entrada do parasito (3,4).
+ A Leishmaniose Tegumentar Americana (LTA ou LT) é responsável por lesões cutâneas e/ou mucocutâneas nos hospedeiros, na qual costumam apresentar lesões pápulo-vesiculosas que podem ulcerar, formando lesões características da doença com úlcera crônica, com contornos regulares, aspecto purulento e indolores, que surgem no local de entrada do parasito (3,4).
 
-A Leishmaniose Cutânea das Américas (LC) causam lesões infiltrativas na pele, do tipo nodular subcutâneo, na qual a pele e o tecido subcutâneo são envolvidos em ulcera única e geralmente indolor, de bordas elevadas e endurecidas, com fundo liso ou granuloso e secretante. O local de acometimento mais comum são as orelhas e apresenta caráter mutilante (3).
+A Leishmaniose Cutânea das Américas (LC) causam lesões infiltrativas na pele, do tipo nodular subcutâneo, na qual a pele e o tecido subcutâneo são envolvidos em úlcera única e geralmente indolor, de bordas elevadas e endurecidas, com fundo liso ou granuloso e secretante. O local de acometimento mais comum são as orelhas e apresenta caráter mutilante (3).
 
 A Leishmaniose Visceral (LV) ocorre pela presença do parasito no interior de células fagocíticas mononucleares de órgãos viscerais, causando, principalmente, hepato e esplenomegalias, alterações de medula óssea, linfonodos e parede intestinal. Quando de caráter agudo, pode apresentar evolução fulminante se não controlada (3,4).
 
-O tratamento das leishmanioses é extremamente hepatotóxico, fator pelo qual grande parte dos infectados pela doença optam pelo não-tratamento. O diagnóstico pode ser feito exames parasitológicos, imunológicos ou moleculares, tendo maior adesão aos testes imunológicos pelo baixo custo e rapidez de diagnóstico (3,4).
+O tratamento das leishmanioses é extremamente hepatotóxico, fator pelo qual grande parte dos infectados pela doença optam pelo não-tratamento. O diagnóstico pode ser feito exames parasitológicos, imunológicos e moleculares, tendo maior adesão aos testes imunológicos pelo baixo custo e rapidez de diagnóstico (3,4).
 
 A Organização Mundial da Saúde (OMS) considera as leishmanioses como um sério problema de saúde pública no mundo e as inclui na classe das seis doenças prioritárias para o desenvolvimento de ações de controle. Isso se dá pela ocorrência da antropozoonose em 80 países, apresentar prevalência mundial de 12 milhões de casos, com cerca de 400 mil novos casos/ano (1).
 
-Desde a descrição da LT no ano de 1909, a doença é notificada em vários municípios de todos os estados no Brasil, com média de 21.000 casos/ano e coeficiente de incidência de 8,6 casos/100.000 habitantes. Na região Norte do país a incidência é de 46,4 casos/100.000 habitantes, cerca de 5 vezes a mais que a incidência nacional (5). 
+Desde a descrição da LT no ano de 1909, a doença é notificada em vários municípios de todos os estados no Brasil, com média de 21.000 casos/ano e coeficiente de incidência de 8,6 casos/100.000 habitantes. Na região Norte do país a incidência é de 46,4 casos/100.000 habitantes, cerca de 5 vezes a mais que a incidência nacional (5).
 
-A incidência de casos de LV no Brasil é relativa a 90% dos casos registrados na Amárica Latina. A doença é descrita em diversos municípios do Brasil e apresenta mudanças no padrão de transmissão de ambientes rurais para ambientes urbanos. Há cerca de 3.500 casos/anuais e incidência de 2,0 casos/100.000 habitantes (6). 
+A incidência de casos de LV no Brasil é relativa a 90% dos casos registrados na América Latina. A doença é descrita em diversos municípios do Brasil e apresenta mudanças no padrão de transmissão de ambientes rurais para ambientes urbanos. Há cerca de 3.500 casos/anuais e incidência de 2,0 casos/100.000 habitantes (6).
 
-O projeto tem como objetivo avaliar os bancos de dados do SINAN sobre os casos de Leishmaniose cutânea e visceral, avaliar as estatísticas de prevalência dos últimos 5 anos, categorizar os resultados e comparar os dados para a doença. 
+O projeto tem como objetivo avaliar os bancos de dados do SINAN sobre os casos de Leishmaniose cutânea e visceral, avaliar as estatísticas de prevalência dos últimos 5 anos, categorizar os resultados e comparar os dados para a doença.
 
 Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e que a disponibilização de dados ocorra por meio de boletins epidemiológicos, nota-se pela ausência dos dados e por erros de digitação, que ainda temos muitas oportunidades de melhoria nesse sistema de notificação e que os boletins estão divulgando resultados por vezes não englobando várias variáveis como esse projeto realizou. E apesar de ser um assunto com muitas publicações, ainda dos muitos pilares citados nesse projeto não são justificados requerendo mais pesquisas para respondê-los.
 
@@ -86,7 +86,7 @@ Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e q
 └── assets             <- mídias usadas no projeto
 ~~~
    
-# Perguntas da Pesquisa 
+# Perguntas da Pesquisa
  
 Letra/significado            | Correlação    
 -----------------------------| ------
@@ -97,7 +97,7 @@ O (desfecho a se avaliar)    | Leishmaniose
 S (tipo de estudo)           | prevalência de brasileiros com Leishmaniose nas últimas décadas
 
 Perguntas para nosso projeto:
-Qual a prevalência de Leishmaniose no Brasil nos últimos 5 anos? 
+Qual a prevalência da Leishmaniose no Brasil nos últimos 5 anos?
 É possível uma categorização dos resultados por cura e óbitos?
 
 # Objetivos do Projeto
@@ -123,8 +123,8 @@ Seguindo o modelo de referência do CRISP-DM 1.0, e analisando o andamento do pr
 Base de dados         |Endereço da Web                                                                                         | Resumo descritivo                         
 ----------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------
 Inquéritos nacionais  |https://www.ibge.gov.br/estatisticas/sociais/saude.html                                                 |Pesquisas nacionais do IBGE
-Global Burden Disease |http://www.healthdata.org/search?search_terms=leishmaniasis+                                            |Pesquisa global sobre saúde 
-Estatísticas do sécXX |https://seculoxx.ibge.gov.br/populacionais-sociais-politicas-e-culturais/busca-por-palavra-chave/saude  |Estatísticas do séc XX do IBGE sobre saúde 
+Global Burden Disease |http://www.healthdata.org/search?search_terms=leishmaniasis+                                            |Pesquisa global sobre saúde
+Estatísticas do sécXX |https://seculoxx.ibge.gov.br/populacionais-sociais-politicas-e-culturais/busca-por-palavra-chave/saude  |Estatísticas do séc XX do IBGE sobre saúde
 TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sinannet/cnv/leishvbr.def                                 |Plataforma do DATAUSUS - leish. visceral
 TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/tabcgi.exe?sinannet/cnv/ltabr.def                                      |Plataforma do DATAUSUS - leish. tegumentar
 TABNET Datasus        |http://tabnet.datasus.gov.br/cgi/deftohtm.exe?idb2012/d0204.def                                         |Plataforma do DATAUSUS - incidência 1990-2012
@@ -133,12 +133,12 @@ Base de dados         |Motivo de exclusão
 ----------------------|--------------------------------------------------------------------------------------------------------
 Inquéritos nacionais  |Pesquisas nacionais - Não contém dados específicos de Leishmaniose, e algumas pesquisas não tiveram uma edição atual, exemplo os censos            
 Global Burden Disease |Países fornecem os dados globais, mas não contém os dados brutos originais -  iremos usar de comparativos e na discussão
-Estatísticas do sécXX |Contém as estatísticas de leishmaniose de 1959 até  2000 - sem dados recentes 
+Estatísticas do séc XX |Contém as estatísticas de leishmaniose de 1959 até  2000 - sem dados recentes
 TABNET Datasus        |Contém os dados de Leishmaniose porém a fonte dos dados é o SINAN, assim o correto é utilizar os dados direto da fonte - leish. visceral
 TABNET Datasus        |Contém os dados de Leishmaniose porém a fonte dos dados é o SINAN, assim o correto é utilizar os dados direto da fonte - leish. tegumentar
-TABNET Datasus        |Contém os dados de Leishmaniose tegumentar apenas nos anos 1990-2012 - sem dados recentes 
+TABNET Datasus        |Contém os dados de Leishmaniose tegumentar apenas nos anos 1990-2012 - sem dados recentes
 
-Portanto como esses possíveis fontes de dados não foram aplicáveis a análise, não foi necessário realizar nenhuma análise descritiva pois de imediato já forma descartados, seja por não conter os dados que queriamos ou por ter dados secundário de um outra fonte primária de dados. Nesse ultimo caso a fonte primária de dados foi incluida como fonte principal para análise dos dados.
+Portanto como essas possíveis fontes de dados não foram aplicáveis a análise, não foi necessário realizar nenhuma análise descritiva pois de imediato já foram descartados, seja por não conter os dados que queríamos ou por ter dados secundário de um outra fonte primária de dados. Nesse último caso a fonte primária de dados foi incluída como fonte principal para análise dos dados.
 
 ## Bases adotadas
 
@@ -150,33 +150,33 @@ População - censo        |https://www.ibge.gov.br/estatisticas/sociais/populac
     
 Base de dados           |Motivo de inclusão                       
 ------------------------|--------------------------------------------------------------------------------------------------------
-SINAN                   |Contém todos os dados do Brasil por ano, sexo e região. São dados de notifcação compulsória. 
-Estimativas da População|Contém dados da população em geral por ano para calculo de prevalência 
-População - censo       |Contém dados da população em 2010 para calculo de prevalência
+SINAN                   |Contém todos os dados do Brasil por ano, sexo e região. São dados de notificação compulsória.
+Estimativas da População|Contém dados da população em geral por ano para cálculo de prevalência
+População - censo       |Contém dados da população em 2010 para cálculo de prevalência
 
-Portanto a fonte primária de dados será os dados do SINAN, (8) e utilizaremos os dados de população do IBGE, (9) para avaliar a prevalência por ano. Como os bancos de dados de Leishmaniose Visceral e Leishmaniose Tegumentar são bem extensos por vários anos, resolvemos focar nos ultimos 5 anos queu são dados mais recentes da população brasileira.
+Portanto, a fonte primária de dados será os dados do SINAN, (8) e utilizaremos os dados de população do IBGE, (9) para avaliar a prevalência por ano. Como os bancos de dados de Leishmaniose Visceral e Leishmaniose Tegumentar são bem extensos por vários anos, resolvemos focar nos últimos 5 anos, que são os dados mais recentes da população brasileira.
 
-Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos indiviadualizados.
+Os bancos de dados do SINAN são baixados por ano, por estado e por patologia, no nosso caso Leishmaniose visceral e tegumentar, totalizando 227 download de bancos individualizados.
 
 ## Integração entre bases de dados e Análise Exploratória
 
-No Sistema de notificação de agravos (SINAN), as bases para notificação de leishmaniose visceral e leishmaniose tegumentar americana são diferentes, existindo uma base para cada tipo de leishmaniose, em um dado estado e em um dado cada ano correspondentes, portanto é necessário que haja uma junção das bases. A extensão das bases presentes no SINAN é .DBC, portanto é necessário fazer uma descompactação para extensão .DBF e posterior conversão dessa extensão para .CSV, esses processos foram feitos no programa TabWin. A junção dos bancos de extensão .CSV foi feita em dois grandes bancos, um para [leishmaniose visceral](data/interim/LEIV_total.csv) e outro para [leishamniose tegumentar americana](data/interim/LTA_total.csv), visto que há diferentes campos com diferentes nomes em cada caso, a junção de todos eles em apenas um banco mostrou-se incoveniente. O processo de integração das bases pode ser encontrado aqui:
+No Sistema de notificação de agravos (SINAN), as bases para notificação de leishmaniose visceral e leishmaniose tegumentar americana são diferentes, existindo uma base para cada tipo de leishmaniose, em um dado estado e em um dado cada ano correspondentes, portanto é necessário que haja uma junção das bases. A extensão das bases presentes no SINAN é .DBC, portanto é necessário fazer uma descompactação para extensão .DBF e posterior conversão dessa extensão para .CSV, esses processos foram feitos no programa TabWin. A junção dos bancos de extensão .CSV foi feita em dois grandes bancos, um para [leishmaniose visceral](data/interim/LEIV_total.csv) e outro para [leishamniose tegumentar americana](data/interim/LTA_total.csv), visto que há diferentes campos com diferentes nomes em cada caso, a junção de todos eles em apenas um banco mostrou-se inconveniente. O processo de integração das bases pode ser encontrado aqui:
 - [Integração das bases leishmaniose tegumentar americana](notebooks/lta_merge.ipynb)
 - [Integração das bases leishmaniose visceral](notebooks/leiv_merge.ipynb)
 
-A análise exploratória foi feita para cada um dos bancos, ignorando-se os dados faltantes (foram excluídos nessa etapa) e com um foco maior na classificação final da doença ou evolução do caso, contendo análise de mortalidade ao longo dos anos. Os cadernos de cada uma das análises são: 
+A análise exploratória foi feita para cada um dos bancos, ignorando-se os dados faltantes (foram excluídos nesta etapa) e com um foco maior na classificação final da doença ou evolução do caso, contendo análise de mortalidade ao longo dos anos. Os cadernos de cada uma das análises são:
 - [Análise exploratória leishmaniose tegumentar americana](notebooks/exp_analysis_LTA.ipynb)
 - [Análise exploratória leishmaniose visceral](notebooks/exp_analysis.ipynb)
 
 # Análises Realizadas
 
-As análises realizadas estão no mesmo caderno jupyter das [análises exploratórias](notebooks), durante a etapa de análise exploratória, também foi feita a filtragem dos dados selecionando dos bancos de dados brutos apenas os campos classificados como essenciais/obrigatórios. Além dessa filtragem inicial, registros, onde os campos obrigatórios apresentassem como preenchimento que o campo foi ignorado, foram excluídos da análise. Entre esses registros excluídos podemos destacar aqueles cujos campos de sintomas vieram preenchidos como não verificado, ou ainda no caso do campo sexo, quando este estava preenchido com sexo indefinido,  também podemos destacar a exclusão das notificações onde o paciente foi transferido para outra unidade de saúde ou faltava informações a respeito da evolução do caso, uma vez que a situação final do paciente é uma informação necessária para fazer as análises.
+As análises realizadas estão no mesmo caderno jupyter das [análises exploratórias](notebooks), durante a etapa de análise exploratória, também foi feita a filtragem dos dados selecionando dos bancos de dados brutos apenas os campos classificados como essenciais/obrigatórios. Além dessa filtragem inicial, registros, onde os campos obrigatórios apresentavam como preenchimento que o campo foi ignorado, foram excluídos da análise. Entre esses registros excluídos podemos destacar aqueles cujos campos de sintomas vieram preenchidos como não verificado, ou ainda no caso do campo sexo, quando este estava preenchido com sexo indefinido,  também podemos destacar a exclusão das notificações onde o paciente foi transferido para outra unidade de saúde ou faltava informações a respeito da evolução do caso, uma vez que a situação final do paciente é uma informação necessária para fazer as análises.
 
 A principal dificuldade durante o período de aquisição dessas bases foi encontrar o local onde as bases estavam presentes, sendo este um dos motivos da mudança do tema do projeto, uma vez que para o HIV, apesar de possuir notificação compulsória essas notificações não estavam acessíveis ao público de forma bruta, estando apenas disponível resumo dessas informações. Outra dificuldade foi a falta de dados que seriam interessantes para as análises, como o campo que contém o peso dos pacientes ou ainda o campo que informa o número de doses administradas ao paciente no caso de tratamento.
 
-Após a extrações dos dados, nosso estudo foi feito sobre os aspectos de cada leishmaniose, cuja possuí 2 variantes que são a <b>tegumentar</b> e a <b>visceral</b>, tudo foi feito análogamente em cada uma destas variantes porém para fins de concisão deste documento README.md, será abordado aqui somente descrições/visualizações gráficas da leishmaniose visceral, para mais detalhes sobre a leishmaniose tegumentar veja [Análise exploratória leishmaniose tegumentar americana](notebooks/exp_analysis_LTA.ipynb).
+Após a extração dos dados, nosso estudo foi feito sobre os aspectos de cada leishmaniose, cuja possuí 2 variantes que são a <b>tegumentar</b> e a <b>visceral</b>, tudo foi feito analogamente em cada uma destas variantes porém para fins de concisão deste documento README.md, será abordado aqui somente descrições/visualizações gráficas da leishmaniose visceral, para mais detalhes sobre a leishmaniose tegumentar veja [Análise exploratória leishmaniose tegumentar americana](notebooks/exp_analysis_LTA.ipynb).
 
-Ao começar a analizar os dados sobre a leishmaniose, consideramos que primeiramente deveríamos verificar como é que foi a progressão de casos de leishmaniose visceral no Brasil e em seus estados desde 2007 até 2019 para verificarmos como esta doença vem afetando a população brasileira e em seguida verificar quais aspectos desta doença são relevantes nos casos constatados.
+Ao começar a analisar os dados sobre a leishmaniose, consideramos que primeiramente deveríamos verificar como é que foi a progressão de casos de leishmaniose visceral no Brasil e em seus estados desde 2007 até 2019 para verificarmos como esta doença vem afetando a população brasileira e em seguida verificar quais aspectos desta doença são relevantes nos casos constatados.
 
 <p float="left">
 <img src="assets/images/casos_leishv_07_19.png" alt="contagem de casos de leish_visc" width="450" heigth="450"/>
@@ -188,7 +188,7 @@ Inicialmente foi constatado que ao longo dos anos de 2007 até 2019, houve um cr
 
 <img src="assets/images/situacao_leishhv_07_19.png" alt="evolucao da leishmaniose visceral" width="400" heigth="400"/>
 
-Com o gráfico foi possível analizarmos que os casos são majoritáriamente resultados em cura ( aproximadamente 91% dos casos ), porém em contrapartida aproximadamente 4% dos casos de leishmaniose visceral resultam em óbito pela doença e assim partimos para estudar quais os fatores que poderiam agravar a situação desta comorbidade.
+Com o gráfico foi possível analisarmos que os casos são majoritariamente resultados em cura ( aproximadamente 91% dos casos ), porém em contrapartida aproximadamente 4% dos casos de leishmaniose visceral resultam em óbito pela doença e assim partimos para estudar quais os fatores que poderiam agravar a situação desta comorbidade.
 
 <img src="assets/images/sintomas_leishv.png" alt="sintomas da leishmaniose visceral" width="450" heigth="450"/>
 
@@ -202,75 +202,75 @@ Após estas análises, fomos estudar qual seria o comportamento dos casos de lei
 
 <img src="assets/images/modelos_leishv_comp.png" alt="comparativo dos modelos das series temporais" width="450" heigth="450"/>
 
-Através destes modelos gerados a partir de nossos dados, podemos observar um comportamento similar aos dados originais e assim podemos começar a usar estas novas séries temporais para predizer possíveis comportamentos dos nossos dados originais nos futuros casos de leishmaniose visceral. 
+Através destes modelos gerados a partir de nossos dados, podemos observar um comportamento similar aos dados originais e assim podemos começar a usar essas novas séries temporais para predizer possíveis comportamentos dos nossos dados originais nos futuros casos de leishmaniose visceral.
 
 <img src="assets/images/modelos_leishv_07_19.png" alt="forecast dos modelos" width="700" heigth="650"/>
 
 No gráfico das predições estocásticas plotadas, observamos um comportamento crescente de casos com um intervalo de confiabilidade de 95% entre os valores de 5000 e 7600 casos, enquanto no gráfico determinístico temos um padrão oscilatório com 95% de confiabilidade inicialmente entre 4100 e 5400 casos cujo leva a uma diminuição dos casos e por conseguinte novos aumentos conforme o padrão cíclico que o modelo considerou como apropriado para esta série temporal.
 
-Através destas análises obtivemos somente algumas perspectivas da leishmaniose de forma que para termos uma compreensão mais completa destes dados necessitaríamos checar de diferentes fontes de dados, obter informações da outras regiões e ter estudos sobre o comportamento desta doença acerca de outros vetores que não sejam humanos, entre outras considerações que possam ter sidas deixadas de fora. 
+Através destas análises obtivemos somente algumas perspectivas da leishmaniose de forma que para termos uma compreensão mais completa destes dados necessitaríamos checar de diferentes fontes de dados, obter informações de outras regiões e ter estudos sobre o comportamento desta doença acerca de outros vetores que não sejam humanos, entre outras considerações que possam ter sidas deixadas de fora.
 
 # Ferramentas
 
-Software Phyton - Extração dos dados, categorização dos resultados, classificação e análise da distribuição/correlação  
+Software Python - Extração dos dados, categorização dos resultados, classificação e análise da distribuição/correlação  
 
 
 | Ferramenta | Descrição |
 |------------|-----------|
-| TabWin 4.5 | Programa utilizado para transformar os bancos de dados originais em formatos mais fáceis de uso. |
-| Python | Liguagem utilizada para o processamento dos bancos de dados. |
-| Jupyter Notebook | Ambiente onde foi executado o código na linguagem python que permite a visualização imediata dos resultados no própio ambiente. |
-| Pandas | Biblioteca utilzada para fazer o gerenciamento e seleção de dados dos bancos de dados. |
+| TabWin 4.5 | Programa utilizado para transformar os bancos de dados originais em formatos mais fáceis de usar. |
+| Python | Linguagem utilizada para o processamento dos bancos de dados. |
+| Jupyter Notebook | Ambiente onde foi executado o código na linguagem python que permite a visualização imediata dos resultados no próprio ambiente. |
+| Pandas | Biblioteca utilizada para fazer o gerenciamento e seleção de dados dos bancos de dados. |
 | Numpy | Biblioteca utilizada para fazer manipulações numéricas sobre os dados.|
-| Statsmodels | Biblioteca utilizada modelagem estatística. |
-| Matplotlib e Seaborn | Bibliotecas utilizadas parta criação de gráficos e visualização de dados. |
+| Statsmodels | Biblioteca utilizada em modelagem estatística. |
+| Matplotlib e Seaborn | Bibliotecas utilizadas para criação de gráficos e visualização de dados. |
 
 
 # Resultados
 Resultados por categoria estão na aba Notebook e os resultados de prevalência estão no link: https://drive.google.com/file/d/1nosZxUA7TNDVSwUiUo2u4P9ej9b8W0BQ/view?usp=sharing
 
-Em 2019, a prevalência de Leishmaniose foi de 3 a cada 100 pessoas por Leishmaniose Visceral e 6 a cada 100 pessoas por Leishmaniose tegumentar. De 2018 até 2019, a quantidade de casos notificados tem reduzido e os casos notificados em sua maioria são resultantes de cura com poucos casos de óbitos por essa patologia, apesar da alta toxicidade do tratamento. A mortalidade observada nos casos notificados é em suma maior para as pessoas maiores de 80 anos tanto na Leishmaniose tegumentar como na Visceral, porém na Leishmaniose tegumentar essa porcentagem de óbitos para maiores de 80 anos corresponde quase a metade dos óbitos, enquanto a mortalidade por Leishmaniose viusceral também é frequente em pessoas maiores de 65 anos. 
+Em 2019, a prevalência de Leishmaniose foi de 3 a cada 100 pessoas por Leishmaniose Visceral e 6 a cada 100 pessoas por Leishmaniose tegumentar. De 2018 até 2019, a quantidade de casos notificados têm reduzido e os casos notificados em sua maioria são resultantes de cura com poucos casos de óbitos por essa patologia, apesar da alta toxicidade do tratamento. A mortalidade observada nos casos notificados é em suma maior para as pessoas maiores de 80 anos tanto na Leishmaniose tegumentar como na Visceral, porém na Leishmaniose tegumentar essa porcentagem de óbitos para maiores de 80 anos corresponde quase a metade dos óbitos, enquanto a mortalidade por Leishmaniose visceral também é frequente em pessoas maiores de 65 anos.
 Avaliando os casos de Leishmaniose por idade, nota-se que a maior parte dos casos notificados para Leishmaniose visceral são das faixas etárias: 1-4 e 20-59 anos. Já para Leishmaniose tegumentar, nota-se que a maior parte dos casos notificados são das faixas etárias de 20-59 anos.
 
 # Discussão
 
-Esse projeto encontrou uma maior prevalência em Leishmaniose tegumentar em relação Leishmaniose visceral, focada em grande parte em adultos de 20-59 anos, com maior porcentagem de cura em relação a óbitos, apesar da alta toxicidade do tratamento. 
+Esse projeto encontrou uma maior prevalência em Leishmaniose tegumentar em relação à Leishmaniose visceral, focada em grande parte em adultos de 20-59 anos, com maior porcentagem de cura em relação a óbitos, apesar da alta toxicidade do tratamento.
 
 Uma revisão sistemática realizada entre 2017 e 2018 com objetivo de avaliar a prevalência de Leishmaniose na Etiópia encontrou um resultado de 21% de Leishmaniose humana, sendo maior número de casos por Leishmaniose tegumentar (29%) do que por Leishmaniose visceral (16%). (10) Um estudo transversal com objetivo de avaliar a prevalência de infecção por Leishmaniose na Tailândia entre 2015 e 2016 observou um resultado de 25% de casos (182 infectados) dos 724 avaliados, dos quais 164 casos eram da região Sul do país que se trata de uma região mais úmida e mais agrícola, demonstrando que o clima e a umidade favorecem o habitat do mosquito vetor dessa patologia. Esses resultados demonstram que a Leishmaniose é uma patologia de regiões mais subdesenvolvidas e de clima tropical/úmido que favorecem o crescimento do mosquito (vetor). (11)  
 
-O Global burden disease publicado em 2015 mostrou uma maior prevalência da Leishmaniose tegumentar (3896%) do que em relação a Leishmaniose visceral (61%). (12) Uma hipótese associada a esse resultado seria o fato de a leishmaniose tegumentar americana ser de mais fácil identificação por atacar a pele e as mucosas, enquanto a leishmaniose visceral que ataca órgãos internos, ser de mais difícil identificação ou ser identificada erroneamente com outras patologias, porém essa diferença não é muito bem relatada na literatura e necessita de mais investigação.
+O Global burden disease publicado em 2015 mostrou uma maior prevalência da Leishmaniose tegumentar (3896%) do que em relação à Leishmaniose visceral (61%). (12) Uma hipótese associada a esse resultado seria o fato de a leishmaniose tegumentar americana ser de mais fácil identificação por atacar a pele e as mucosas, enquanto a leishmaniose visceral que ataca órgãos internos, ser de mais difícil identificação ou ser identificada erroneamente com outras patologias, porém essa diferença não é muito bem relatada na literatura e necessita de mais investigação.
 
-O Global burden disease publicado em 2016 sobre Leishmaniose no Brasil, mostrou que a incidência de casos dessa patologia diminui em 49% de 1990 a 2016. (13) Outro estudo, que avaliou a incidência de Leishmaniose nos últimos anos mostrou uma flutuação entre 1977 e 2015, mas com queda nos últimos anos. (14) Um estudo que realizou uma análise bibliométrica de pesquisa global sobre leishmaniose no banco de dados da Web of Science, observou que foram indexados 13.658 registros no sobre a leishmaniose na base de dados da Web of Science para este período de dez anos de estudo (2006-2015). Mostrando um crescimento de pesquisas sobre esse assunto. O Brasil ocupa o primeiro lugar na produção científica, realizando 3315 estudos sobre leishmaniose. (15) Essa redução de casos nos últimos anos pode ser associada a maiores pesquisas e controle sobre o tema bem como a introdução de programas políticos para erradicação de outras patologias como malária, que consequentemente influenciam na diminuição de casos de Leishmaniose bem como a expansão de área urbanas com maior saneamento. 
+O Global burden disease publicado em 2016 sobre Leishmaniose no Brasil, mostrou que a incidência de casos dessa patologia diminui em 49% de 1990 a 2016. (13) Outro estudo, que avaliou a incidência de Leishmaniose nos últimos anos mostrou uma flutuação entre 1977 e 2015, mas com queda nos últimos anos. (14) Um estudo que realizou uma análise bibliométrica de pesquisa global sobre leishmaniose no banco de dados da Web of Science, observou que foram indexados 13.658 registros no sobre a leishmaniose na base de dados da Web of Science para este período de dez anos de estudo (2006-2015). Mostrando um crescimento de pesquisas sobre esse assunto. O Brasil ocupa o primeiro lugar na produção científica, realizando 3315 estudos sobre leishmaniose. (15) Essa redução de casos nos últimos anos pode ser associada a maiores pesquisas e controle sobre o tema bem como a introdução de programas políticos para erradicação de outras patologias como malária, que consequentemente influenciam na diminuição de casos de Leishmaniose bem como a expansão de área urbanas com maior saneamento.
 
-Outro estudo que avaliou a incidência de Leishmaniose nos últimos anos, mostrou a influência de casos por faixa etária, sendo maior em 5-44 anos, (14) demonstrando que é muito comum casos de Leishmaniose em adultos, porém não se encontra na literatura uma explicação que justifique o porquê somente em Leishmaniose visceral há uma maior prevalência de crianças 1-4 anos além de adultos maiores de 20 anos. Uma hipótese é que as crianças tem maior susceptilidade a doenças devido a imaturidade imunológica e de uma maior exposição ao vetor no peridomicílio (cão e gato) mas em contra partida muitos casos de Leishmaniose estão associados a outras doenças como HIV que remetem a notificação e maiores cuidados. Mas como esses resultados não são mito bem relatados na literatura, eles necessitam de mais investigação.
+Outro estudo que avaliou a incidência de Leishmaniose nos últimos anos, mostrou a influência de casos por faixa etária, sendo maior em 5-44 anos, (14) demonstrando que é muito comum casos de Leishmaniose em adultos, porém não se encontra na literatura uma explicação que justifique o porquê somente em Leishmaniose visceral há uma maior prevalência de crianças 1-4 anos além de adultos maiores de 20 anos. Uma hipótese é que as crianças têm maior susceptibilidade a doenças devido à imaturidade imunológica e de uma maior exposição ao vetor no peridomicílio (cão e gato) mas em contrapartida muitos casos de Leishmaniose estão associados a outras doenças como HIV que remetem a notificação e maiores cuidados. Mas como esses resultados não são muito bem relatados na literatura, eles necessitam de mais investigação.
 
-Um estudo coorte realizado entre 2003 e 2008 no município de Campo Grande, avaliou a mortalidade em pacientes com Leishmaniose visceral. Dos 55 avaliados, 42 morreram em geral devido infecções bacterianas e em indivíduos acima de 40 anos (69%). Insuficiência respiratória foi constatada em 17 (30,9%), IRA em 11 (20%), insuficiência hepática em oito (14,5%), hemorragia (digestiva, pulmonar, epistaxe e gengivorragia) em seis (10,9%) e arritmia cardíaca em dois casos (3,6%). Infecções fatais incluíram pneumonia e choque séptico. (16) Essa mortalidade pode ser atribuída à presença de danos diretos causados pelo parasito, e quando associado ao tratamento é potencializada pela toxicidade da droga e intensificada pela progressão da idade. 
+Um estudo coorte realizado entre 2003 e 2008 no município de Campo Grande, avaliou a mortalidade em pacientes com Leishmaniose visceral. Dos 55 avaliados, 42 morreram em geral devido a infecções bacterianas e em indivíduos acima de 40 anos (69%). Insuficiência respiratória foi constatada em 17 (30,9%), IRA em 11 (20%), insuficiência hepática em oito (14,5%), hemorragia (digestiva, pulmonar, epistaxe e gengivorragia) em seis (10,9%) e arritmia cardíaca em dois casos (3,6%). Infecções fatais incluíram pneumonia e choque séptico. (16) Essa mortalidade pode ser atribuída à presença de danos diretos causados pelo parasito, e quando associado ao tratamento é potencializada pela toxicidade da droga e intensificada pela progressão da idade.
 
-Esse trabalho apresentou como limitações o uso de dados secundários de banco de dados do SINAN, os quais apresentavam vários erros de digitação bem como a ausência de informações, que devido a quantidade de dados foram desconsideradas. Outra limitação dessa pesquisa é que alguns boletins epidemiológicos contêm também informações de Leishmaniose até 2019, não sendo um projeto inovador, mas que traz outras premissas acerca do que está publicado. Mas, igualmente encontrado nos boletins epidemiológicos, essa pesquisa não tinha como objetivo avaliar a totalidade de causas e associações acerca dos resultados encontrados, mas diferentemente dos boletins epidemiológicos, buscar na literatura possíveis explicações. 
+Esse trabalho apresentou como limitações o uso de dados secundários de banco de dados do SINAN, os quais apresentavam vários erros de digitação bem como a ausência de informações, que devido a quantidade de dados foram desconsideradas. Outra limitação dessa pesquisa é que alguns boletins epidemiológicos contêm também informações de Leishmaniose até 2019, não sendo um projeto inovador, mas que traz outras premissas acerca do que está publicado. Mas, igualmente encontrado nos boletins epidemiológicos, essa pesquisa não tinha como objetivo avaliar a totalidade de causas e associações acerca dos resultados encontrados, mas diferentemente dos boletins epidemiológicos, buscar na literatura possíveis explicações.
 
-E apesar dos boletins epidemiológicos conterem algumas análises que esse trabalho executou, alguns pontos devem ser considerados que demonstram as limitações dos boletins citados. Por exemplo o boletim epidemiológico de Leishmaniose de 2021, não cita como o dado foi obtido, que análise foi executada e até possíveis erros e dificuldades no banco de dados que originou os dados, diferentemente dessa pesquisa, que nosso objetivo além de responder a pergunta principal, mas também avaliar cada passo para obtenção de uma resposta. Esse boletim publicado em 2021 também apresenta valores diferentes do que encontramos, o que é suspeito visto que retiramos os dados direto da fonte do SINAN, que é a mesma fonte utilizada por esse boletim epidemiológico e com o mesmo período de avaliação (até 2019). Outro fator, os gráficos e tabelas divulgados nos boletins epidemiológicos (de 2020 e 2021) não avaliam toda a complexidade do banco, como cura, óbitos, pois em geral o foco dos boletins é trazer graficamente dados significativos, enquanto esse projeto frisa avaliar o banco de dados independente de só resultados significantes, com objetivo de disseminação de resultados e de fácil acesso a população e novos pesquisadores. Outro fator é que dos vários boletins epidemiológicos encontrados de 2020, fazem uma avaliação mais secundária da Leishmaniose, como os boletins que avaliam o sarampo, dengue e trazem a Leishmaniose de forma mais secundária, enquanto nesse projeto, a Leishmaniose é nossa patologia principal. (17,18,19)
+E apesar dos boletins epidemiológicos conterem algumas análises que esse trabalho executou, alguns pontos devem ser considerados que demonstram as limitações dos boletins citados. Por exemplo o boletim epidemiológico de Leishmaniose de 2021, não cita como o dado foi obtido, que análise foi executada e até possíveis erros e dificuldades no banco de dados que originou os dados, diferentemente desta pesquisa, que nosso objetivo além de responder a pergunta principal, mas também avaliar cada passo para obtenção de uma resposta. Esse boletim publicado em 2021 também apresenta valores diferentes do que encontramos, o que é suspeito visto que retiramos os dados direto da fonte do SINAN, que é a mesma fonte utilizada por esse boletim epidemiológico e com o mesmo período de avaliação (até 2019). Outro fator, os gráficos e tabelas divulgados nos boletins epidemiológicos (de 2020 e 2021) não avaliam toda a complexidade do banco, como cura, óbitos, pois em geral o foco dos boletins é trazer graficamente dados significativos, enquanto esse projeto frisa avaliar o banco de dados independente de só resultados significantes, com objetivo de disseminação de resultados e de fácil acesso a população e novos pesquisadores. Outro fator é que dos vários boletins epidemiológicos encontrados de 2020, fazem uma avaliação mais secundária da Leishmaniose, como os boletins que avaliam o sarampo, dengue e trazem a Leishmaniose de forma mais secundária, enquanto nesse projeto, a Leishmaniose é nossa patologia principal. (17,18,19)
 
 # Conclusão
 
-Apesar da prevalência de Leishmaniose estar reduzindo no último ano, ainda é uma patologia de notificação compulsória e que necessita atenção devido historicamente já ter sido tratada como uma doença endêmica. Portanto é necessário a monitoração e ações constantes para erradicação dessa patologia, principalmente em áreas cujo o vetor é mais comum como áreas de clima quente e úmido e áreas de baixo saneamento e cuidados com a saúde. 
+Apesar da prevalência de Leishmaniose estar reduzindo no último ano, ainda é uma patologia de notificação compulsória e que necessita atenção devido historicamente já ter sido tratada como uma doença endêmica. Portanto é necessário a monitoração e ações constantes para erradicação dessa patologia, principalmente em áreas cujo o vetor é mais comum como áreas de clima quente e úmido e áreas de baixo saneamento e cuidados com a saúde.
 
 Embora hoje tenhamos um sistema de notificação que faz esse acompanhamento e que a disponibilização de dados ocorra por meio de boletins epidemiológicos, nota-se pela ausência dos dados e por erros de digitação, que ainda temos muitas oportunidades de melhoria nesse sistema de notificação e que os boletins estão divulgando resultados por vezes não englobando várias variáveis como esse projeto realizou. E apesar de ser um assunto com muitas publicações, ainda dos muitos pilares citados nesse projeto não são justificados requerendo mais pesquisas para respondê-los.
 
 # Trabalhos Futuros
 
-Pensando em trabalhos futuros, seria necessário mais investigações a respeito das causas associadas que foram identificadas nesse trabalho e que vimos poucas explicações na literatura. Avaliar outros dados do banco de dados do SINAN, visto que esse banco contém informações a respeito de diagnostico e tratamento que esse trabalho não avaliou. 
+Pensando em trabalhos futuros, seria necessário mais investigações a respeito das causas associadas que foram identificadas neste trabalho e que vimos poucas explicações na literatura. Avaliar outros dados do banco de dados do SINAN, visto que esse banco contém informações a respeito de diagnóstico e tratamento que esse trabalho não avaliou.
 Avaliar a influência de outras patologias associadas ou não a Leishmaniose (como por exemplo, alguns estudos avaliam a associação com HIV). Outras possibilidades seriam a realização de uma revisão sistemática e até verificação da leishmaniose em cães, visto que é um vetor intermediário e pode influenciar a Leishmaniose humana.
 
 # Referências Bibliográficas
-1.	ARAÚJO, YWKIANE L.; SILVA, ALLAN B.; FREITAS, FRANCISCA INÊS S.; LIMA, CALIANDRA MARIA B. L. Ocorrência da leishmaniose visceral na Paraíba e sua correlação com indicadores municipais Revista Saúde (Sta. Maria). 2021; 47.
-2.	PELISSARI, Daniele Maria et al. Tratamento da Leishmaniose Visceral e Leishmaniose Tegumentar Americana no Brasil. Epidemiol. Serv. Saúde, Brasília, v. 20, n. 1, p. 107-110, mar. 2011.   
-3.	REY, L. Parasitologia. 4ª Edição. Rio de Janeiro, RJ. Editora Guanabara (2008).
-4.	NEVES D. Parasitologia Humana. 11ª Edição. São Paulo, SP. Editora Ateneu (2005)
-5.	Ministério da Saúde. Leishmaniose Visceral. Publicado em 2020, Atualizado em 2021 < https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leishmaniose-visceral>
-6.	Ministério da Saúde. Leishmaniose Tegumentar. <https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leishmaniose-tegumentar-lt> Publicado em 2020, atualizado em 2021. 
-7.	CRISP-DM 1.0: Step-by-step mining guide, The CRISP-DM consortium, Agosto, 2000.
-8.	Site, I.B.G.E. "Disponível em: http://bvs.saude.gov.br/dicas-em-saude/2085-leishmaniose" Acesso em May, 07 (2021).
-9.	Site, I.B.G.E. "Disponível em: https://www.ibge.gov.br/estatisticas/sociais/saude.html"  Acesso em April, 05 (2021).
+1.    ARAÚJO, YWKIANE L.; SILVA, ALLAN B.; FREITAS, FRANCISCA INÊS S.; LIMA, CALIANDRA MARIA B. L. Ocorrência da leishmaniose visceral na Paraíba e sua correlação com indicadores municipais Revista Saúde (Sta. Maria). 2021; 47.
+2.    PELISSARI, Daniele Maria et al. Tratamento da Leishmaniose Visceral e Leishmaniose Tegumentar Americana no Brasil. Epidemiol. Serv. Saúde, Brasília, v. 20, n. 1, p. 107-110, mar. 2011.   
+3.    REY, L. Parasitologia. 4ª Edição. Rio de Janeiro, RJ. Editora Guanabara (2008).
+4.    NEVES D. Parasitologia Humana. 11ª Edição. São Paulo, SP. Editora Ateneu (2005)
+5.    Ministério da Saúde. Leishmaniose Visceral. Publicado em 2020, Atualizado em 2021 < https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leishmaniose-visceral>
+6.    Ministério da Saúde. Leishmaniose Tegumentar. <https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/l/leishmaniose-tegumentar-lt> Publicado em 2020, atualizado em 2021.
+7.    CRISP-DM 1.0: Step-by-step mining guide, The CRISP-DM consortium, Agosto, 2000.
+8.    Site, I.B.G.E. "Disponível em: http://bvs.saude.gov.br/dicas-em-saude/2085-leishmaniose" Acesso em May, 07 (2021).
+9.    Site, I.B.G.E. "Disponível em: https://www.ibge.gov.br/estatisticas/sociais/saude.html"  Acesso em April, 05 (2021).
 10. Ayalew Assefa. Leishmaniasis in Ethiopia: A systematic review and meta-analysis of prevalence in animals and humans, Heliyon,Volume 4, Issue 8,2018, e00723, ISSN 2405-8440,https://doi.org/10.1016/j.heliyon.2018.e00723.
 11. Manomat J, Leelayoova S, Bualert L, Tan-ariya P, Siripattanapipong S, et al. (2017) Prevalence and risk factors associated with Leishmania infection in Trang Province, southern Thailand. PLOS Neglected Tropical Diseases 11(11): e0006095. https://doi.org/10.1371/journal.pntd.0006095
 12. Global, regional, and national incidence, prevalence, and years lived with disability for 310 diseases and injuries, 1990–2015: a systematic analysis for the Global Burden of Disease Study 2015 Vos, Theo et al. The Lancet, Volume 388, Issue 10053, 1545 - 1602
@@ -278,7 +278,9 @@ Avaliar a influência de outras patologias associadas ou não a Leishmaniose (co
 14. PIROOZI B, MORADI G, ALINIA C, MOHAMADI P, GOUYA MM, NABAVI M, GHARACHORLOO F, KHADEM ERFAN MB, SHIRZADI MR. Incidence, Burden, and Trend of Cutaneous Leishmaniasis over Four Decades in Iran. Iran J Public Health. 48(Supple 1):28-35.
 15. Masoud Soosaraei, Ali Akbar Khasseh, Mahdi Fakhar, Hajar Ziaei Hezarjaribi. A decade bibliometric analysis of global research on leishmaniasis in Web of Science database,
 Annals of Medicine and Surgery,Volume 26,2018,Pages 30-37,ISSN 2049-0801,https://doi.org/10.1016/j.amsu.2017.12.014.
-16. Oliveira, Janaina Michelle de et al. Mortalidade por leishmaniose visceral: aspectos clínicos e laboratoriais. Revista da Sociedade Brasileira de Medicina Tropical [online]. 2010, v. 43, n. 2 [Acessado 23 Junho 2021] , pp. 188-193. Disponível em: <https://doi.org/10.1590/S0037-86822010000200016>. Epub 20 Abr 2010. ISSN 1678-9849. https://doi.org/10.1590/S0037-86822010000200016.
+16. Oliveira, Janaina Michelle de et al. Mortalidade por leishmaniose visceral: aspectos clínicos e laboratoriais. Revista da Sociedade Brasileira de Medicina Tropical [online]. 2010, v. 43, n. 2 [Acessado 23 Junho 2021] , pp. 188-193. Disponível em: <https://doi.org/10.1590/S0037-86822010000200016>. Epub 20 Abr 2010. ISSN 1678-9849. https://doi.org/10.1590/S0037-86822010000200016.
 17. Site, Ministério da Saúde "Disponível em: "https://antigo.saude.gov.br/boletins-epidemiologicos" Acesso em Jun, 19 (2021).
 18. Site, Ministério da Saúde "Disponível em: "https://portalarquivos2.saude.gov.br/images/pdf/2019/setembro/25/boletim-especial-21ago19-web.pdf" Acesso em Jun, 19 (2021).
 19. Site, Ministério da Saúde "Disponível em: "https://www.gov.br/saude/pt-br/assuntos/media/pdf/2021/marco/3/boletim_especial_doencas_negligenciadas.pdf" Acesso em Jun, 19 (2021).
+
+
